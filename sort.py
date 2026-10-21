@@ -10,7 +10,7 @@ from urllib.parse import unquote, urlparse
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) vl2balancer/2.0"
 SERVERS_PER_BALANCER = 25
 BALANCER_NAME = "🚧 | Белые списки {index} | {count}"
-SUBSCRIPTION_FILE = "subscription.json"
+SUBSCRIPTION_FILE = "subscription.txt"
 DEFAULT_SOURCE = "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt"
 LINK_RE = re.compile(r"vless://[^\s<>\"'`]+")
 RESERVED = ["geosite:category-ir", "geosite:category-ru", "geosite:cn"]
