@@ -1,0 +1,47 @@
+name: Update subscription
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-subscription
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build subscription into repository root
+        run: python sort.py --out .
+
+      - name: Verify subscription
+        run: |
+          test -s subscription.json
+          python -c "import json; d = json.load(open('subscription.json', encoding='utf-8')); assert isinstance(d, list) and d, 'not a non-empty array'; print('balancers:', len(d), '| servers:', sum(len([o for o in c['outbounds'] if o['tag'].startswith('bal-')]) for c in d))"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add subscription.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update subscription $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
