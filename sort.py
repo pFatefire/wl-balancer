@@ -179,8 +179,8 @@ def make_config(configs, index, total, fmt, port_base):
                    "type": "leastLoad",
                    "settings": {
                        "expected": 2,
-                       "maxRTT": "1s",
-                       "tolerance": 0.5,
+                       "maxRTT": "2s",
+                       "tolerance": 0.3,
                        "baselines": ["1s", "2s", "3s"]
                    }
                },
