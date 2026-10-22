@@ -163,7 +163,7 @@ def make_config(configs, index, total, fmt, port_base):
         "burstObservatory": {
             "subjectSelector": [prefix],
             "pingConfig": {"connectivity": "", "httpMethod": "HEAD",
-                           "destination": "https://www.google.com/generate_204",
+                           "destination": "https://connectivitycheck.gstatic.com/generate_204",
                            "interval": "5s", "sampling": 2, "timeout": "5s"},
         },
         "policy": {
