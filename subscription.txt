@@ -983,7 +983,17 @@
             "bal-1-"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "expected": 2,
+              "maxRTT": "1s",
+              "tolerance": 0.5,
+              "baselines": [
+                "1s",
+                "2s",
+                "3s"
+              ]
+            }
           },
           "fallbackTag": "bal-1-1"
         }
@@ -2200,7 +2210,17 @@
             "bal-2-"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "expected": 2,
+              "maxRTT": "1s",
+              "tolerance": 0.5,
+              "baselines": [
+                "1s",
+                "2s",
+                "3s"
+              ]
+            }
           },
           "fallbackTag": "bal-2-1"
         }
@@ -3111,7 +3131,17 @@
             "bal-3-"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "expected": 2,
+              "maxRTT": "1s",
+              "tolerance": 0.5,
+              "baselines": [
+                "1s",
+                "2s",
+                "3s"
+              ]
+            }
           },
           "fallbackTag": "bal-3-1"
         }
@@ -3742,7 +3772,17 @@
             "bal-4-"
           ],
           "strategy": {
-            "type": "leastPing"
+            "type": "leastLoad",
+            "settings": {
+              "expected": 2,
+              "maxRTT": "1s",
+              "tolerance": 0.5,
+              "baselines": [
+                "1s",
+                "2s",
+                "3s"
+              ]
+            }
           },
           "fallbackTag": "bal-4-1"
         }
