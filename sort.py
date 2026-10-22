@@ -175,8 +175,16 @@ def make_config(configs, index, total, fmt, port_base):
         "routing": {
             "domainStrategy": "AsIs",
             "balancers": [{"tag": f"balancer-{index}", "selector": [prefix],
-                           "strategy": {"type": "leastPing"},
-                           "fallbackTag": f"{prefix}1"}],
+               "strategy": {
+                   "type": "leastLoad",
+                   "settings": {
+                       "expected": 2,
+                       "maxRTT": "1s",
+                       "tolerance": 0.5,
+                       "baselines": ["1s", "2s", "3s"]
+                   }
+               },
+               "fallbackTag": f"{prefix}1"}],
             "rules": [
                 {"type": "field", "outboundTag": "direct", "domain": RESERVED},
                 {"type": "field", "outboundTag": "direct", "ip": RESERVED_IP},
