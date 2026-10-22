@@ -1077,7 +1077,7 @@
       "pingConfig": {
         "connectivity": "",
         "httpMethod": "HEAD",
-        "destination": "https://www.google.com/generate_204",
+        "destination": "https://connectivitycheck.gstatic.com/generate_204",
         "interval": "5s",
         "sampling": 2,
         "timeout": "5s"
@@ -2134,7 +2134,7 @@
       "pingConfig": {
         "connectivity": "",
         "httpMethod": "HEAD",
-        "destination": "https://www.google.com/generate_204",
+        "destination": "https://connectivitycheck.gstatic.com/generate_204",
         "interval": "5s",
         "sampling": 2,
         "timeout": "5s"
@@ -3443,7 +3443,7 @@
       "pingConfig": {
         "connectivity": "",
         "httpMethod": "HEAD",
-        "destination": "https://www.google.com/generate_204",
+        "destination": "https://connectivitycheck.gstatic.com/generate_204",
         "interval": "5s",
         "sampling": 2,
         "timeout": "5s"
@@ -4440,7 +4440,7 @@
       "pingConfig": {
         "connectivity": "",
         "httpMethod": "HEAD",
-        "destination": "https://www.google.com/generate_204",
+        "destination": "https://connectivitycheck.gstatic.com/generate_204",
         "interval": "5s",
         "sampling": 2,
         "timeout": "5s"
@@ -5346,7 +5346,7 @@
       "pingConfig": {
         "connectivity": "",
         "httpMethod": "HEAD",
-        "destination": "https://www.google.com/generate_204",
+        "destination": "https://connectivitycheck.gstatic.com/generate_204",
         "interval": "5s",
         "sampling": 2,
         "timeout": "5s"
@@ -5509,7 +5509,7 @@
       "pingConfig": {
         "connectivity": "",
         "httpMethod": "HEAD",
-        "destination": "https://www.google.com/generate_204",
+        "destination": "https://connectivitycheck.gstatic.com/generate_204",
         "interval": "5s",
         "sampling": 2,
         "timeout": "5s"
