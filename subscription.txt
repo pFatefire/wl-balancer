@@ -986,8 +986,8 @@
             "type": "leastLoad",
             "settings": {
               "expected": 2,
-              "maxRTT": "1s",
-              "tolerance": 0.5,
+              "maxRTT": "2s",
+              "tolerance": 0.3,
               "baselines": [
                 "1s",
                 "2s",
@@ -2213,8 +2213,8 @@
             "type": "leastLoad",
             "settings": {
               "expected": 2,
-              "maxRTT": "1s",
-              "tolerance": 0.5,
+              "maxRTT": "2s",
+              "tolerance": 0.3,
               "baselines": [
                 "1s",
                 "2s",
@@ -3134,8 +3134,8 @@
             "type": "leastLoad",
             "settings": {
               "expected": 2,
-              "maxRTT": "1s",
-              "tolerance": 0.5,
+              "maxRTT": "2s",
+              "tolerance": 0.3,
               "baselines": [
                 "1s",
                 "2s",
@@ -3775,8 +3775,8 @@
             "type": "leastLoad",
             "settings": {
               "expected": 2,
-              "maxRTT": "1s",
-              "tolerance": 0.5,
+              "maxRTT": "2s",
+              "tolerance": 0.3,
               "baselines": [
                 "1s",
                 "2s",
