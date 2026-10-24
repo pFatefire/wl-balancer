@@ -154,7 +154,8 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "fitindoor.net"
+            "serverName": "fitindoor.net",
+            "fingerprint": "random"
           },
           "xhttpSettings": {
             "host": "fitindoor.net",
@@ -221,7 +222,46 @@
           "xhttpSettings": {
             "host": "fitindoor.net",
             "path": "/api/v1/upload",
-            "mode": "auto"
+            "mode": "auto",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "64-128",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-1-4"
@@ -231,17 +271,14 @@
         "settings": {
           "address": "78.159.246.85",
           "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
           "network": "xhttp",
           "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
-          },
+          "tlsSettings": {},
           "xhttpSettings": {
             "host": "fitindoor.net",
             "path": "/api/v1/upload",
@@ -353,226 +390,56 @@
         "streamSettings": {
           "network": "xhttp",
           "security": "tls",
-          "tlsSettings": {},
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox"
+          },
           "xhttpSettings": {
             "host": "fitindoor.net",
             "path": "/api/v1/upload",
-            "mode": "auto"
+            "mode": "auto",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "64-128",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-1-8"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "random"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-1-9"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-1-10"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-1-11"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-1-12"
       },
       {
         "protocol": "vless",
@@ -639,7 +506,30 @@
             }
           }
         },
-        "tag": "bal-1-13"
+        "tag": "bal-1-9"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-1-10"
       },
       {
         "protocol": "vless",
@@ -662,7 +552,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-1-14"
+        "tag": "bal-1-11"
       },
       {
         "protocol": "vless",
@@ -685,7 +575,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-1-15"
+        "tag": "bal-1-12"
       },
       {
         "protocol": "vless",
@@ -708,7 +598,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-1-16"
+        "tag": "bal-1-13"
       },
       {
         "protocol": "vless",
@@ -727,6 +617,81 @@
             "fingerprint": "firefox"
           },
           "xhttpSettings": {
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-1-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-1-15"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-1-16"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
             "path": "/api/v1/upload",
             "mode": "auto"
           }
@@ -770,12 +735,7 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
             "host": "fitindoor.net",
@@ -790,7 +750,7 @@
         "settings": {
           "address": "78.159.246.85",
           "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
           "encryption": "none",
           "level": 8
         },
@@ -798,6 +758,7 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
+            "serverName": "fitindoor.net",
             "fingerprint": "chrome"
           },
           "xhttpSettings": {
@@ -909,7 +870,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "fitindoor.net",
-            "fingerprint": "chrome"
+            "fingerprint": "firefox"
           },
           "xhttpSettings": {
             "host": "fitindoor.net",
@@ -963,7 +924,7 @@
         "settings": {
           "address": "78.159.246.85",
           "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
           "encryption": "none",
           "level": 8
         },
@@ -972,7 +933,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
             "host": "fitindoor.net",
@@ -1026,7 +987,7 @@
         "settings": {
           "address": "78.159.246.85",
           "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
           "encryption": "none",
           "level": 8
         },
@@ -1064,8 +1025,8 @@
               "uplinkChunkSize": "0",
               "noGRPCHeader": false,
               "noSSEHeader": false,
-              "scMaxEachPostBytes": "0",
-              "scMinPostsIntervalMs": "0",
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
               "scMaxBufferedPosts": 0,
               "scStreamUpServerSecs": "0",
               "serverMaxHeaderBytes": 0,
@@ -1228,169 +1189,7 @@
         "settings": {
           "address": "78.159.246.85",
           "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-2-1"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "chrome",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-2-2"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
           "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-2-3"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-2-4"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-2-5"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
           "encryption": "none",
           "level": 8
         },
@@ -1446,7 +1245,122 @@
             }
           }
         },
-        "tag": "bal-2-6"
+        "tag": "bal-2-1"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "0",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "64-128",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
+          }
+        },
+        "tag": "bal-2-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "chrome",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-2-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-2-4"
       },
       {
         "protocol": "vless",
@@ -1509,7 +1423,7 @@
             }
           }
         },
-        "tag": "bal-2-7"
+        "tag": "bal-2-5"
       },
       {
         "protocol": "vless",
@@ -1526,6 +1440,93 @@
           "tlsSettings": {
             "serverName": "fitindoor.net",
             "fingerprint": "safari"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "64-128",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
+          }
+        },
+        "tag": "bal-2-6"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-2-7"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "ios"
           },
           "xhttpSettings": {
             "host": "fitindoor.net",
@@ -1635,69 +1636,6 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "fitindoor.net",
-            "fingerprint": "ios"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-2-11"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
             "fingerprint": "random",
             "alpn": [
               "h2",
@@ -1710,7 +1648,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-12"
+        "tag": "bal-2-11"
       },
       {
         "protocol": "vless",
@@ -1777,7 +1715,7 @@
             }
           }
         },
-        "tag": "bal-2-13"
+        "tag": "bal-2-12"
       },
       {
         "protocol": "vless",
@@ -1785,6 +1723,69 @@
           "address": "78.159.246.85",
           "port": 2053,
           "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "0",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "64-128",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
+          }
+        },
+        "tag": "bal-2-13"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
           "encryption": "none",
           "level": 8
         },
@@ -1856,7 +1857,30 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
+            "fingerprint": "ios"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-2-15"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net"
           },
           "xhttpSettings": {
             "host": "fitindoor.net",
@@ -1885,8 +1909,8 @@
               "uplinkChunkSize": "0",
               "noGRPCHeader": false,
               "noSSEHeader": false,
-              "scMaxEachPostBytes": "0",
-              "scMinPostsIntervalMs": "0",
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
               "scMaxBufferedPosts": 0,
               "scStreamUpServerSecs": "0",
               "serverMaxHeaderBytes": 0,
@@ -1901,30 +1925,6 @@
               "downloadSettings": null,
               "extra": null
             }
-          }
-        },
-        "tag": "bal-2-15"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "ios"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
           }
         },
         "tag": "bal-2-16"
@@ -1967,7 +1967,11 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "windytrout.net",
-            "fingerprint": "firefox"
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
           },
           "xhttpSettings": {
             "host": "windytrout.net",
@@ -1976,6 +1980,30 @@
           }
         },
         "tag": "bal-2-18"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "81.94.148.232",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "windytrout.net",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "windytrout.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-2-19"
       },
       {
         "protocol": "vless",
@@ -2038,7 +2066,7 @@
             }
           }
         },
-        "tag": "bal-2-19"
+        "tag": "bal-2-20"
       },
       {
         "protocol": "vless",
@@ -2062,99 +2090,30 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-20"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "188.72.103.4",
-          "port": 443,
-          "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "ru.nnight.cfd",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "ru.nnight.cfd",
-            "path": "/api/v4/media/session/poll",
-            "mode": "packet-up",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": {
-                "Accept": "application/vnd.api+json,+application/json,+text/plain,+*/*",
-                "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
-                "Cache-Control": "no-cache",
-                "Pragma": "no-cache"
-              },
-              "xPaddingBytes": "48-320",
-              "xPaddingObfsMode": true,
-              "xPaddingKey": "q",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "query",
-              "xPaddingMethod": "tokenish",
-              "uplinkHTTPMethod": "GET",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "query",
-              "seqKey": "offset",
-              "uplinkDataPlacement": "header",
-              "uplinkDataKey": "X-Playback-Token",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1536-6144",
-              "scMinPostsIntervalMs": "10-30",
-              "scMaxBufferedPosts": 64,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 32768,
-              "xmux": {
-                "maxConcurrency": "8-16",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "128-256",
-                "hMaxRequestTimes": "600-1000",
-                "hMaxReusableSecs": "1800-3600",
-                "hKeepAlivePeriod": 30
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
         "tag": "bal-2-21"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "78.159.246.85",
-          "port": 8443,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "address": "46.243.142.104",
+          "port": 443,
+          "id": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "xhttp",
+          "network": "ws",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
+            "serverName": "santehdv.site",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
           },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
+          "wsSettings": {
+            "host": "santehdv.site",
+            "path": "/media/stream/qUWu2oaFgxAw"
           }
         },
         "tag": "bal-2-22"
@@ -2162,23 +2121,19 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "78.159.246.85",
-          "port": 8443,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "address": "45.12.75.242",
+          "port": 26424,
+          "id": "633f424e-2b11-48da-a6b3-a849dd71456f",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "random"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ya.ru",
+            "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+            "shortId": "23103e1e"
           }
         },
         "tag": "bal-2-23"
@@ -2186,23 +2141,20 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "78.159.246.85",
-          "port": 8443,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "address": "45.12.75.242",
+          "port": 26424,
+          "id": "633f424e-2b11-48da-a6b3-a849dd71456f",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ya.ru",
+            "fingerprint": "chrome",
+            "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+            "shortId": "23103e1e"
           }
         },
         "tag": "bal-2-24"
@@ -2210,62 +2162,20 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "81.94.148.232",
-          "port": 8443,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "address": "45.12.75.242",
+          "port": 26424,
+          "id": "633f424e-2b11-48da-a6b3-a849dd71456f",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "windytrout.net",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "windytrout.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ya.ru",
+            "fingerprint": "firefox",
+            "publicKey": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+            "shortId": "23103e1e"
           }
         },
         "tag": "bal-2-25"
@@ -2363,7 +2273,7 @@
     "stats": {}
   },
   {
-    "remarks": "🚧 | Белые списки 3 | 15",
+    "remarks": "🚧 | Белые списки 3 | 25",
     "log": {
       "loglevel": "warning"
     },
@@ -2412,22 +2322,70 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
+          "address": "188.72.103.4",
           "port": 443,
-          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "safari"
+            "serverName": "ru.nnight.cfd",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "ru.nnight.cfd",
+            "path": "/api/v4/media/session/poll",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": {
+                "Accept": "application/vnd.api+json,+application/json,+text/plain,+*/*",
+                "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache"
+              },
+              "xPaddingBytes": "48-320",
+              "xPaddingObfsMode": true,
+              "xPaddingKey": "q",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "query",
+              "xPaddingMethod": "tokenish",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "query",
+              "seqKey": "offset",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "X-Playback-Token",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "1536-6144",
+              "scMinPostsIntervalMs": "10-30",
+              "scMaxBufferedPosts": 64,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 32768,
+              "xmux": {
+                "maxConcurrency": "8-16",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "128-256",
+                "hMaxRequestTimes": "600-1000",
+                "hMaxReusableSecs": "1800-3600",
+                "hKeepAlivePeriod": 30
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-3-1"
@@ -2435,22 +2393,23 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "address": "78.159.246.85",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "firefox"
+            "serverName": "fitindoor.net",
+            "fingerprint": "chrome"
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
           }
         },
         "tag": "bal-3-2"
@@ -2458,22 +2417,23 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "address": "78.159.246.85",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "chrome"
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox"
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
           }
         },
         "tag": "bal-3-3"
@@ -2481,25 +2441,23 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "address": "78.159.246.85",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "chrome",
-            "alpn": [
-              "http/1.1"
-            ]
+            "serverName": "fitindoor.net",
+            "fingerprint": "random"
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
           }
         },
         "tag": "bal-3-4"
@@ -2507,25 +2465,27 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "address": "81.94.148.232",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "serverName": "windytrout.net",
             "fingerprint": "firefox",
             "alpn": [
+              "h2",
               "http/1.1"
             ]
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "windytrout.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
           }
         },
         "tag": "bal-3-5"
@@ -2533,25 +2493,27 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+          "address": "81.94.148.232",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "serverName": "windytrout.net",
             "fingerprint": "chrome",
             "alpn": [
+              "h2",
               "http/1.1"
             ]
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "windytrout.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
           }
         },
         "tag": "bal-3-6"
@@ -2559,25 +2521,23 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+          "address": "78.159.246.85",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "ios",
-            "alpn": [
-              "http/1.1"
-            ]
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox"
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
           }
         },
         "tag": "bal-3-7"
@@ -2585,25 +2545,23 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+          "address": "81.94.148.232",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "safari",
-            "alpn": [
-              "http/1.1"
-            ]
+            "serverName": "windytrout.net",
+            "fingerprint": "firefox"
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "windytrout.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
           }
         },
         "tag": "bal-3-8"
@@ -2611,25 +2569,23 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+          "address": "81.94.148.232",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
+            "serverName": "windytrout.net",
+            "fingerprint": "chrome"
           },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
+          "xhttpSettings": {
+            "host": "windytrout.net",
+            "path": "/api/v1/upload",
+            "mode": "packet-up"
           }
         },
         "tag": "bal-3-9"
@@ -2648,10 +2604,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "ios",
-            "alpn": [
-              "http/1.1"
-            ]
+            "fingerprint": "safari"
           },
           "wsSettings": {
             "host": "z1q3pv4g78.rucdncomp.pro",
@@ -2674,10 +2627,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "safari",
-            "alpn": [
-              "http/1.1"
-            ]
+            "fingerprint": "firefox"
           },
           "wsSettings": {
             "host": "z1q3pv4g78.rucdncomp.pro",
@@ -2689,23 +2639,22 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "45.11.27.133",
+          "address": "217.19.122.156",
           "port": 443,
-          "id": "f1087776-5077-4b2f-9338-687d2787c64e",
+          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "s3.t2.ru",
-            "fingerprint": "firefox",
-            "publicKey": "_bEA-GWmkPW_YITfFaWHogq_5AsYX4zAqomlhRQouS4",
-            "shortId": "1e853ef7fcad4788"
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "chrome"
           },
-          "grpcSettings": {
-            "serviceName": "UpdateService"
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
           }
         },
         "tag": "bal-3-12"
@@ -2713,9 +2662,191 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.27.229",
+          "address": "217.19.122.156",
           "port": 443,
-          "id": "66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c",
+          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
+          }
+        },
+        "tag": "bal-3-13"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "217.19.122.156",
+          "port": 443,
+          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
+          }
+        },
+        "tag": "bal-3-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "217.19.122.156",
+          "port": 443,
+          "id": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
+          }
+        },
+        "tag": "bal-3-15"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "217.19.122.156",
+          "port": 443,
+          "id": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
+          }
+        },
+        "tag": "bal-3-16"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "217.19.122.156",
+          "port": 443,
+          "id": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
+          }
+        },
+        "tag": "bal-3-17"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "217.19.122.156",
+          "port": 443,
+          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "ios",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
+          }
+        },
+        "tag": "bal-3-18"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "217.19.122.156",
+          "port": 443,
+          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
+          }
+        },
+        "tag": "bal-3-19"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.225.44.50",
+          "port": 443,
+          "id": "736d08e1-27b0-4ec2-a5e0-4575e24da6b5",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -2724,13 +2855,54 @@
           "network": "raw",
           "security": "reality",
           "realitySettings": {
-            "serverName": "bridge.rkitman.ru",
-            "fingerprint": "safari",
-            "publicKey": "8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU",
-            "shortId": "88d9dc52ef39c8bd"
+            "serverName": "edge.jagavps.ru",
+            "fingerprint": "firefox",
+            "publicKey": "NiUsL7f8tuEUltpr9UC98fnZQs510PlQDCCi32WbgAA"
           }
         },
-        "tag": "bal-3-13"
+        "tag": "bal-3-20"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.225.44.50",
+          "port": 443,
+          "id": "736d08e1-27b0-4ec2-a5e0-4575e24da6b5",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "edge.jagavps.ru",
+            "fingerprint": "ios",
+            "publicKey": "NiUsL7f8tuEUltpr9UC98fnZQs510PlQDCCi32WbgAA"
+          }
+        },
+        "tag": "bal-3-21"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.225.44.50",
+          "port": 443,
+          "id": "736d08e1-27b0-4ec2-a5e0-4575e24da6b5",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "edge.jagavps.ru",
+            "fingerprint": "chrome",
+            "publicKey": "NiUsL7f8tuEUltpr9UC98fnZQs510PlQDCCi32WbgAA"
+          }
+        },
+        "tag": "bal-3-22"
       },
       {
         "protocol": "vless",
@@ -2794,33 +2966,135 @@
             }
           }
         },
-        "tag": "bal-3-14"
+        "tag": "bal-3-23"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.86.145.142",
+          "address": "95.143.188.10",
           "port": 443,
-          "id": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
+          "id": "9c5ad05d-d807-0029-bf48-cfad48af6dec",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "deliverya.online",
-            "fingerprint": "edge",
-            "alpn": [
-              "http/1.1"
-            ]
+          "network": "xhttp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "git.medrocket.ru",
+            "fingerprint": "ios",
+            "publicKey": "YHPoUNxsml4z6pYt-7djOb1lqnBjxCk4-2mk84pveyc",
+            "shortId": "3b5b38669a1a51c0"
           },
-          "wsSettings": {
-            "host": "deliverya.online",
-            "path": "/adrws"
+          "xhttpSettings": {
+            "path": "/repository",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "0",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "0",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "0",
+                "maxConnections": "2",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
-        "tag": "bal-3-15"
+        "tag": "bal-3-24"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "95.143.188.10",
+          "port": 443,
+          "id": "9c5ad05d-d807-0029-bf48-cfad48af6dec",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "git.medrocket.ru",
+            "fingerprint": "qq",
+            "publicKey": "YHPoUNxsml4z6pYt-7djOb1lqnBjxCk4-2mk84pveyc",
+            "shortId": "3b5b38669a1a51c0"
+          },
+          "xhttpSettings": {
+            "path": "/repository",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "0",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "0",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "0",
+                "maxConnections": "2",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
+          }
+        },
+        "tag": "bal-3-25"
       },
       {
         "protocol": "freedom",
@@ -2908,6 +3182,274 @@
         {
           "type": "field",
           "balancerTag": "balancer-3",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🚧 | Белые списки 4 | 5",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "tag": "dns_out",
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ]
+    },
+    "inbounds": [
+      {
+        "tag": "mixed",
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.145.142",
+          "port": 443,
+          "id": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "deliverya.online",
+            "fingerprint": "edge",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "deliverya.online",
+            "path": "/adrws"
+          }
+        },
+        "tag": "bal-4-1"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.145.142",
+          "port": 443,
+          "id": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "deliverya.online",
+            "fingerprint": "android",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "deliverya.online",
+            "path": "/adrws"
+          }
+        },
+        "tag": "bal-4-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.145.142",
+          "port": 443,
+          "id": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "deliverya.online",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "deliverya.online",
+            "path": "/adrws"
+          }
+        },
+        "tag": "bal-4-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.145.142",
+          "port": 443,
+          "id": "c8b3c1d7-4294-4f30-9e5b-e4693b64d518",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "deliverya.online",
+            "fingerprint": "ios",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "deliverya.online",
+            "path": "/adrws"
+          }
+        },
+        "tag": "bal-4-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "46.243.142.25",
+          "port": 443,
+          "id": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "slivdom-spb.site",
+            "fingerprint": "edge",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "path": "/media/stream/3VTlT49iHS1H"
+          }
+        },
+        "tag": "bal-4-5"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {},
+        "tag": "block"
+      }
+    ],
+    "burstObservatory": {
+      "subjectSelector": [
+        "bal-4-"
+      ],
+      "pingConfig": {
+        "connectivity": "",
+        "httpMethod": "HEAD",
+        "destination": "https://connectivitycheck.gstatic.com/generate_204",
+        "interval": "5s",
+        "sampling": 2,
+        "timeout": "5s"
+      }
+    },
+    "policy": {
+      "levels": {
+        "8": {
+          "handshake": 4,
+          "connIdle": 300,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "AsIs",
+      "balancers": [
+        {
+          "tag": "balancer-4",
+          "selector": [
+            "bal-4-"
+          ],
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "expected": 2,
+              "maxRTT": "2s",
+              "tolerance": 0.3,
+              "baselines": [
+                "1s",
+                "2s",
+                "3s"
+              ]
+            }
+          },
+          "fallbackTag": "bal-4-1"
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "outboundTag": "direct",
+          "domain": [
+            "geosite:category-ir",
+            "geosite:category-ru",
+            "geosite:cn"
+          ]
+        },
+        {
+          "type": "field",
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:ir",
+            "geoip:ru",
+            "geoip:cn",
+            "geoip:vn"
+          ]
+        },
+        {
+          "type": "field",
+          "balancerTag": "balancer-4",
           "network": "tcp,udp"
         }
       ]
