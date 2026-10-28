@@ -1315,6 +1315,69 @@
       {
         "protocol": "vless",
         "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "64-128",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
+          }
+        },
+        "tag": "bal-2-6"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
           "address": "78.159.246.179",
           "port": 2053,
           "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
@@ -1334,7 +1397,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-6"
+        "tag": "bal-2-7"
       },
       {
         "protocol": "vless",
@@ -1397,7 +1460,7 @@
             }
           }
         },
-        "tag": "bal-2-7"
+        "tag": "bal-2-8"
       },
       {
         "protocol": "vless",
@@ -1420,7 +1483,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-8"
+        "tag": "bal-2-9"
       },
       {
         "protocol": "vless",
@@ -1448,118 +1511,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-9"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
         "tag": "bal-2-10"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-2-11"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-2-12"
       },
       {
         "protocol": "vless",
@@ -1619,6 +1571,54 @@
               "downloadSettings": null,
               "extra": null
             }
+          }
+        },
+        "tag": "bal-2-11"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-2-12"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
           }
         },
         "tag": "bal-2-13"
@@ -2886,7 +2886,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "randomquaint.net",
-            "fingerprint": "ios"
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
             "host": "randomquaint.net",
@@ -2949,7 +2949,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "randomquaint.net",
-            "fingerprint": "chrome"
+            "fingerprint": "ios"
           },
           "xhttpSettings": {
             "host": "randomquaint.net",
@@ -3432,9 +3432,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.72.103.4",
-          "port": 443,
-          "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+          "address": "78.159.246.179",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
           "level": 8
         },
@@ -3442,45 +3442,49 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "ru.nnight.cfd",
-            "fingerprint": "firefox"
+            "serverName": "randomquaint.net",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
           },
           "xhttpSettings": {
-            "host": "ru.nnight.cfd",
-            "path": "/api/v4/media/session/poll",
-            "mode": "packet-up",
+            "host": "randomquaint.net",
+            "path": "/api/v1/upload",
+            "mode": "auto",
             "extra": {
               "host": "",
               "path": "",
               "mode": "",
               "headers": null,
-              "xPaddingBytes": "48-320",
-              "xPaddingObfsMode": true,
-              "xPaddingKey": "q",
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
               "xPaddingHeader": "",
-              "xPaddingPlacement": "query",
-              "xPaddingMethod": "tokenish",
-              "uplinkHTTPMethod": "GET",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
               "sessionIDPlacement": "",
               "sessionIDKey": "",
               "sessionIDTable": "",
               "sessionIDLength": "0",
-              "seqPlacement": "query",
-              "seqKey": "offset",
-              "uplinkDataPlacement": "header",
-              "uplinkDataKey": "X-Playback-Token",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
               "uplinkChunkSize": "0",
               "noGRPCHeader": false,
               "noSSEHeader": false,
-              "scMaxEachPostBytes": "0",
-              "scMinPostsIntervalMs": "0",
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
               "scMaxBufferedPosts": 0,
               "scStreamUpServerSecs": "0",
               "serverMaxHeaderBytes": 0,
               "xmux": {
-                "maxConcurrency": "0",
+                "maxConcurrency": "16-32",
                 "maxConnections": "0",
-                "cMaxReuseTimes": "0",
+                "cMaxReuseTimes": "64-128",
                 "hMaxRequestTimes": "0",
                 "hMaxReusableSecs": "0",
                 "hKeepAlivePeriod": 0
@@ -3506,11 +3510,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "randomquaint.net",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
+            "fingerprint": "firefox"
           },
           "xhttpSettings": {
             "host": "randomquaint.net",
@@ -3573,69 +3573,6 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "randomquaint.net",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "randomquaint.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-4-4"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.179",
-          "port": 8443,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "randomquaint.net",
             "fingerprint": "firefox",
             "alpn": [
               "h2",
@@ -3648,7 +3585,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-5"
+        "tag": "bal-4-4"
       },
       {
         "protocol": "vless",
@@ -3672,7 +3609,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-6"
+        "tag": "bal-4-5"
       },
       {
         "protocol": "vless",
@@ -3696,7 +3633,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-7"
+        "tag": "bal-4-6"
       },
       {
         "protocol": "vless",
@@ -3720,7 +3657,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-8"
+        "tag": "bal-4-7"
       },
       {
         "protocol": "vless",
@@ -3743,7 +3680,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-9"
+        "tag": "bal-4-8"
       },
       {
         "protocol": "vless",
@@ -3766,7 +3703,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-10"
+        "tag": "bal-4-9"
       },
       {
         "protocol": "vless",
@@ -3790,7 +3727,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-11"
+        "tag": "bal-4-10"
       },
       {
         "protocol": "vless",
@@ -3818,7 +3755,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-12"
+        "tag": "bal-4-11"
       },
       {
         "protocol": "vless",
@@ -3842,7 +3779,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-13"
+        "tag": "bal-4-12"
       },
       {
         "protocol": "vless",
@@ -3866,7 +3803,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-14"
+        "tag": "bal-4-13"
       },
       {
         "protocol": "vless",
@@ -3887,6 +3824,30 @@
               "h2",
               "http/1.1"
             ]
+          },
+          "xhttpSettings": {
+            "host": "windytrout.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-4-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "81.94.148.232",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "windytrout.net",
+            "fingerprint": "firefox"
           },
           "xhttpSettings": {
             "host": "windytrout.net",
@@ -3910,30 +3871,6 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "windytrout.net",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "windytrout.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-4-16"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "81.94.148.232",
-          "port": 8443,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "windytrout.net",
             "fingerprint": "chrome"
           },
           "xhttpSettings": {
@@ -3981,7 +3918,7 @@
             }
           }
         },
-        "tag": "bal-4-17"
+        "tag": "bal-4-16"
       },
       {
         "protocol": "vless",
@@ -3998,6 +3935,30 @@
           "tlsSettings": {
             "serverName": "windytrout.net",
             "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "windytrout.net",
+            "path": "/api/v1/upload",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-4-17"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "81.94.148.232",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "windytrout.net",
+            "fingerprint": "firefox"
           },
           "xhttpSettings": {
             "host": "windytrout.net",
@@ -4021,12 +3982,12 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "windytrout.net",
-            "fingerprint": "firefox"
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
             "host": "windytrout.net",
             "path": "/api/v1/upload",
-            "mode": "packet-up"
+            "mode": "auto"
           }
         },
         "tag": "bal-4-19"
@@ -4034,7 +3995,7 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "81.94.148.232",
+          "address": "78.159.246.85",
           "port": 8443,
           "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
           "encryption": "none",
@@ -4044,11 +4005,11 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "windytrout.net",
+            "serverName": "fitindoor.net",
             "fingerprint": "chrome"
           },
           "xhttpSettings": {
-            "host": "windytrout.net",
+            "host": "fitindoor.net",
             "path": "/api/v1/upload",
             "mode": "auto"
           }
@@ -4069,30 +4030,6 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "fitindoor.net",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-4-21"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.159.246.85",
-          "port": 8443,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
             "fingerprint": "firefox"
           },
           "xhttpSettings": {
@@ -4101,7 +4038,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-22"
+        "tag": "bal-4-21"
       },
       {
         "protocol": "vless",
@@ -4124,7 +4061,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-23"
+        "tag": "bal-4-22"
       },
       {
         "protocol": "vless",
@@ -4187,7 +4124,7 @@
             }
           }
         },
-        "tag": "bal-4-24"
+        "tag": "bal-4-23"
       },
       {
         "protocol": "vless",
@@ -4211,6 +4148,27 @@
           },
           "xhttpSettings": {
             "host": "windytrout.net",
+            "path": "/api/v1/upload",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-4-24"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.179",
+          "port": 8443,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {},
+          "xhttpSettings": {
+            "host": "randomquaint.net",
             "path": "/api/v1/upload",
             "mode": "auto"
           }
@@ -4359,27 +4317,6 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "78.159.246.179",
-          "port": 8443,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {},
-          "xhttpSettings": {
-            "host": "randomquaint.net",
-            "path": "/api/v1/upload",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-5-1"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
           "address": "188.72.103.4",
           "port": 443,
           "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
@@ -4446,7 +4383,7 @@
             }
           }
         },
-        "tag": "bal-5-2"
+        "tag": "bal-5-1"
       },
       {
         "protocol": "vless",
@@ -4469,7 +4406,7 @@
             "path": "/useraction/events/b892639b7195/"
           }
         },
-        "tag": "bal-5-3"
+        "tag": "bal-5-2"
       },
       {
         "protocol": "vless",
@@ -4492,7 +4429,7 @@
             "path": "/useraction/events/b892639b7195/"
           }
         },
-        "tag": "bal-5-4"
+        "tag": "bal-5-3"
       },
       {
         "protocol": "vless",
@@ -4515,7 +4452,7 @@
             "path": "/useraction/events/b892639b7195/"
           }
         },
-        "tag": "bal-5-5"
+        "tag": "bal-5-4"
       },
       {
         "protocol": "vless",
@@ -4541,33 +4478,7 @@
             "path": "/useraction/events/b892639b7195/"
           }
         },
-        "tag": "bal-5-6"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "217.19.122.156",
-          "port": 443,
-          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "z1q3pv4g78.rucdncomp.pro",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "z1q3pv4g78.rucdncomp.pro",
-            "path": "/useraction/events/b892639b7195/"
-          }
-        },
-        "tag": "bal-5-7"
+        "tag": "bal-5-5"
       },
       {
         "protocol": "vless",
@@ -4593,7 +4504,7 @@
             "path": "/useraction/events/b892639b7195/"
           }
         },
-        "tag": "bal-5-8"
+        "tag": "bal-5-6"
       },
       {
         "protocol": "vless",
@@ -4619,7 +4530,7 @@
             "path": "/useraction/events/b892639b7195/"
           }
         },
-        "tag": "bal-5-9"
+        "tag": "bal-5-7"
       },
       {
         "protocol": "vless",
@@ -4681,7 +4592,7 @@
             }
           }
         },
-        "tag": "bal-5-10"
+        "tag": "bal-5-8"
       },
       {
         "protocol": "vless",
@@ -4707,7 +4618,7 @@
             "path": "/useraction/events/b892639b7195/"
           }
         },
-        "tag": "bal-5-11"
+        "tag": "bal-5-9"
       },
       {
         "protocol": "vless",
@@ -4778,7 +4689,33 @@
             }
           }
         },
-        "tag": "bal-5-12"
+        "tag": "bal-5-10"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "217.19.122.156",
+          "port": 443,
+          "id": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "z1q3pv4g78.rucdncomp.pro",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "z1q3pv4g78.rucdncomp.pro",
+            "path": "/useraction/events/b892639b7195/"
+          }
+        },
+        "tag": "bal-5-11"
       },
       {
         "protocol": "vless",
@@ -4843,7 +4780,7 @@
             }
           }
         },
-        "tag": "bal-5-13"
+        "tag": "bal-5-12"
       },
       {
         "protocol": "vless",
@@ -4906,7 +4843,7 @@
             }
           }
         },
-        "tag": "bal-5-14"
+        "tag": "bal-5-13"
       },
       {
         "protocol": "vless",
@@ -4927,6 +4864,32 @@
           "wsSettings": {
             "host": "dropstyle.lol",
             "path": "/player/metrics/97662863db53/"
+          }
+        },
+        "tag": "bal-5-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "dropstyle.lol",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "dropstyle.lol",
+            "path": "/service/metrics/51dec2df3071/"
           }
         },
         "tag": "bal-5-15"
@@ -4971,11 +4934,14 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "dropstyle.lol",
-            "fingerprint": "chrome"
+            "fingerprint": "android",
+            "alpn": [
+              "http/1.1"
+            ]
           },
           "wsSettings": {
             "host": "dropstyle.lol",
-            "path": "/player/metrics/97662863db53/"
+            "path": "/service/metrics/51dec2df3071/"
           }
         },
         "tag": "bal-5-17"
@@ -4994,14 +4960,14 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "dropstyle.lol",
-            "fingerprint": "firefox",
+            "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ]
           },
           "wsSettings": {
             "host": "dropstyle.lol",
-            "path": "/player/metrics/97662863db53/"
+            "path": "/service/metrics/51dec2df3071/"
           }
         },
         "tag": "bal-5-18"
@@ -5020,55 +4986,6 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "dropstyle.lol",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "dropstyle.lol",
-            "path": "/service/metrics/51dec2df3071/"
-          }
-        },
-        "tag": "bal-5-19"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "dropstyle.lol",
-            "fingerprint": "edge"
-          },
-          "wsSettings": {
-            "host": "dropstyle.lol",
-            "path": "/service/metrics/51dec2df3071/"
-          }
-        },
-        "tag": "bal-5-20"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "dropstyle.lol",
             "alpn": [
               "http/1.1"
             ]
@@ -5078,70 +4995,7 @@
             "path": "/player/metrics/97662863db53/"
           }
         },
-        "tag": "bal-5-21"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "188.72.103.4",
-          "port": 443,
-          "id": "000187a2-924b-8be4-b475-485a4699c80d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "ee-cdn.fius.dev",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "ee-cdn.fius.dev",
-            "path": "/api-test",
-            "mode": "packet-up",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": true,
-              "xPaddingKey": "dc",
-              "xPaddingHeader": "X-Cache",
-              "xPaddingPlacement": "queryInHeader",
-              "xPaddingMethod": "tokenish",
-              "uplinkHTTPMethod": "OPTIONS",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "header",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "4096",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "16384",
-              "scMinPostsIntervalMs": "10",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "0",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "0",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-5-22"
+        "tag": "bal-5-19"
       },
       {
         "protocol": "vless",
@@ -5165,7 +5019,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-5-23"
+        "tag": "bal-5-20"
       },
       {
         "protocol": "vless",
@@ -5192,7 +5046,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-5-24"
+        "tag": "bal-5-21"
       },
       {
         "protocol": "vless",
@@ -5217,6 +5071,76 @@
             "host": "static.bakarova-top.ru",
             "path": "/api/v2/events",
             "mode": "packet-up"
+          }
+        },
+        "tag": "bal-5-22"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "ios"
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-5-23"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-5-24"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "qq"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
           }
         },
         "tag": "bal-5-25"
@@ -5314,7 +5238,7 @@
     "stats": {}
   },
   {
-    "remarks": "🚧 | Белые списки 6 | 18",
+    "remarks": "🚧 | Белые списки 6 | 14",
     "log": {
       "loglevel": "warning"
     },
@@ -5374,76 +5298,6 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "ios"
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-6-1"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-6-2"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-6-3"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
             "fingerprint": "chrome"
           },
           "xhttpSettings": {
@@ -5451,7 +5305,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-6-4"
+        "tag": "bal-6-1"
       },
       {
         "protocol": "vless",
@@ -5478,7 +5332,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-6-5"
+        "tag": "bal-6-2"
       },
       {
         "protocol": "vless",
@@ -5505,7 +5359,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-6-6"
+        "tag": "bal-6-3"
       },
       {
         "protocol": "vless",
@@ -5529,7 +5383,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-6-7"
+        "tag": "bal-6-4"
       },
       {
         "protocol": "vless",
@@ -5552,7 +5406,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-6-8"
+        "tag": "bal-6-5"
       },
       {
         "protocol": "vless",
@@ -5579,7 +5433,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-6-9"
+        "tag": "bal-6-6"
       },
       {
         "protocol": "vless",
@@ -5606,7 +5460,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-6-10"
+        "tag": "bal-6-7"
       },
       {
         "protocol": "vless",
@@ -5669,7 +5523,7 @@
             }
           }
         },
-        "tag": "bal-6-11"
+        "tag": "bal-6-8"
       },
       {
         "protocol": "vless",
@@ -5695,7 +5549,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-6-12"
+        "tag": "bal-6-9"
       },
       {
         "protocol": "vless",
@@ -5719,31 +5573,7 @@
             "serviceName": "ozone"
           }
         },
-        "tag": "bal-6-13"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "188.225.77.254",
-          "port": 8443,
-          "id": "d1f0c6cb-0d8b-4f13-8104-b7c8e8c57110",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "io.ozone.ru",
-            "fingerprint": "ios",
-            "publicKey": "rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s",
-            "shortId": "4951a2313524dd8f"
-          },
-          "grpcSettings": {
-            "serviceName": "ozone"
-          }
-        },
-        "tag": "bal-6-14"
+        "tag": "bal-6-10"
       },
       {
         "protocol": "vless",
@@ -5767,7 +5597,31 @@
             "serviceName": "ozone"
           }
         },
-        "tag": "bal-6-15"
+        "tag": "bal-6-11"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.225.77.254",
+          "port": 8443,
+          "id": "d1f0c6cb-0d8b-4f13-8104-b7c8e8c57110",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "io.ozone.ru",
+            "fingerprint": "ios",
+            "publicKey": "rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s",
+            "shortId": "4951a2313524dd8f"
+          },
+          "grpcSettings": {
+            "serviceName": "ozone"
+          }
+        },
+        "tag": "bal-6-12"
       },
       {
         "protocol": "vless",
@@ -5830,7 +5684,7 @@
             }
           }
         },
-        "tag": "bal-6-16"
+        "tag": "bal-6-13"
       },
       {
         "protocol": "vless",
@@ -5897,70 +5751,7 @@
             }
           }
         },
-        "tag": "bal-6-17"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "188.72.103.4",
-          "port": 443,
-          "id": "000187a2-924b-8be4-b475-485a4699c80d",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "se-cdn.fius.dev",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "se-cdn.fius.dev",
-            "path": "/api-test",
-            "mode": "packet-up",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": true,
-              "xPaddingKey": "dc",
-              "xPaddingHeader": "X-Cache",
-              "xPaddingPlacement": "queryInHeader",
-              "xPaddingMethod": "tokenish",
-              "uplinkHTTPMethod": "OPTIONS",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "header",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "4096",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "16384",
-              "scMinPostsIntervalMs": "10",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "0",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "0",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-6-18"
+        "tag": "bal-6-14"
       },
       {
         "protocol": "freedom",
