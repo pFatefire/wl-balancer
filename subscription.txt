@@ -1315,69 +1315,6 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "78.159.246.85",
-          "port": 2053,
-          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "fitindoor.net",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "fitindoor.net",
-            "path": "/api/v1/upload",
-            "mode": "auto",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "100-1000",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "",
-              "sessionIDPlacement": "",
-              "sessionIDKey": "",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "",
-              "seqKey": "",
-              "uplinkDataPlacement": "",
-              "uplinkDataKey": "",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "1000000",
-              "scMinPostsIntervalMs": "30",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 0,
-              "xmux": {
-                "maxConcurrency": "16-32",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "64-128",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-2-6"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
           "address": "78.159.246.179",
           "port": 2053,
           "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
@@ -1397,7 +1334,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-7"
+        "tag": "bal-2-6"
       },
       {
         "protocol": "vless",
@@ -1460,7 +1397,7 @@
             }
           }
         },
-        "tag": "bal-2-8"
+        "tag": "bal-2-7"
       },
       {
         "protocol": "vless",
@@ -1483,7 +1420,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-9"
+        "tag": "bal-2-8"
       },
       {
         "protocol": "vless",
@@ -1511,7 +1448,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-10"
+        "tag": "bal-2-9"
       },
       {
         "protocol": "vless",
@@ -1573,7 +1510,7 @@
             }
           }
         },
-        "tag": "bal-2-11"
+        "tag": "bal-2-10"
       },
       {
         "protocol": "vless",
@@ -1595,6 +1532,69 @@
             "host": "fitindoor.net",
             "path": "/api/v1/upload",
             "mode": "auto"
+          }
+        },
+        "tag": "bal-2-11"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.159.246.85",
+          "port": 2053,
+          "id": "2c634977-584e-4e1f-b501-1b70c77a6743",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "fitindoor.net",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "fitindoor.net",
+            "path": "/api/v1/upload",
+            "mode": "auto",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "64-128",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-2-12"
@@ -4736,22 +4736,64 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.178.208.167",
+          "address": "95.129.236.171",
           "port": 443,
-          "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+          "id": "d96d3d65-91e8-4b9a-bed6-ad36b019c4e9",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "dropstyle.lol",
-            "fingerprint": "ios"
+            "serverName": "my.console.pc-club.app",
+            "fingerprint": "firefox"
           },
-          "wsSettings": {
-            "host": "dropstyle.lol",
-            "path": "/player/metrics/97662863db53/"
+          "xhttpSettings": {
+            "host": "my.console.pc-club.app",
+            "path": "/api/orders/loadChunk/",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": {
+                "X-Whitelist-Header": "467df350-bf59-11f1-ac96-e3616fea5e1b"
+              },
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": true,
+              "xPaddingKey": "xss",
+              "xPaddingHeader": "api_v1",
+              "xPaddingPlacement": "query",
+              "xPaddingMethod": "tokenish",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "query",
+              "sessionIDKey": "auth",
+              "sessionIDTable": "alphabet",
+              "sessionIDLength": "20",
+              "seqPlacement": "query",
+              "seqKey": "id",
+              "uplinkDataPlacement": "body",
+              "uplinkDataKey": "X-Ver",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": true,
+              "scMaxEachPostBytes": "0",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "20-80",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "8-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "36-96",
+                "hMaxRequestTimes": "320-640",
+                "hMaxReusableSecs": "720-1800",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-5-11"
@@ -4759,22 +4801,62 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.178.208.167",
+          "address": "188.72.103.4",
           "port": 443,
-          "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+          "id": "3225c52d-bc6c-4b53-ba42-4747a37f4f12",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "dropstyle.lol",
-            "fingerprint": "ios"
+            "serverName": "cdn-1.frdmhere.com",
+            "fingerprint": "qq"
           },
-          "wsSettings": {
-            "host": "dropstyle.lol",
-            "path": "/service/metrics/51dec2df3071/"
+          "xhttpSettings": {
+            "host": "cdn-1.frdmhere.com",
+            "path": "/api/v2/events/ingest",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": {},
+              "xPaddingBytes": "1-16",
+              "xPaddingObfsMode": true,
+              "xPaddingKey": "utm_source",
+              "xPaddingHeader": "Referer",
+              "xPaddingPlacement": "queryInHeader",
+              "xPaddingMethod": "tokenish",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "path",
+              "sessionIDKey": "x_session",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "path",
+              "seqKey": "x_seq",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "X-Data",
+              "uplinkChunkSize": "512-1024",
+              "noGRPCHeader": false,
+              "noSSEHeader": true,
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "2-6",
+              "serverMaxHeaderBytes": 65536,
+              "xmux": {
+                "maxConcurrency": "0",
+                "maxConnections": "3",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "200-400",
+                "hMaxReusableSecs": "600-1200",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-5-12"
@@ -4782,22 +4864,62 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.178.208.167",
+          "address": "188.72.103.4",
           "port": 443,
-          "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+          "id": "000187a2-924b-8be4-b475-485a4699c80d",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "dropstyle.lol",
-            "fingerprint": "safari"
+            "serverName": "pl-cdn.fius.dev",
+            "fingerprint": "firefox"
           },
-          "wsSettings": {
-            "host": "dropstyle.lol",
-            "path": "/service/metrics/51dec2df3071/"
+          "xhttpSettings": {
+            "host": "pl-cdn.fius.dev",
+            "path": "/api-test",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": true,
+              "xPaddingKey": "dc",
+              "xPaddingHeader": "X-Cache",
+              "xPaddingPlacement": "queryInHeader",
+              "xPaddingMethod": "tokenish",
+              "uplinkHTTPMethod": "OPTIONS",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "4096",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "16384",
+              "scMinPostsIntervalMs": "10",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "0",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-5-13"
@@ -4816,10 +4938,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "dropstyle.lol",
-            "fingerprint": "android",
-            "alpn": [
-              "http/1.1"
-            ]
+            "fingerprint": "firefox"
           },
           "wsSettings": {
             "host": "dropstyle.lol",
@@ -4831,25 +4950,62 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.178.208.167",
+          "address": "188.72.110.3",
           "port": 443,
-          "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
+          "id": "092573fd-82d0-4ac2-bc85-7813dfaa884c",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "dropstyle.lol",
-            "fingerprint": "edge",
-            "alpn": [
-              "http/1.1"
-            ]
+            "serverName": "rsvnor.6924l9t655.h1cloud.lol",
+            "fingerprint": "firefox"
           },
-          "wsSettings": {
-            "host": "dropstyle.lol",
-            "path": "/player/metrics/97662863db53/"
+          "xhttpSettings": {
+            "host": "rsvnor.6924l9t655.h1cloud.lol",
+            "path": "/api/v1/bsmanaged12284/sync/",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "96-1040",
+              "xPaddingObfsMode": true,
+              "xPaddingKey": "_t",
+              "xPaddingHeader": "X-Media-Token",
+              "xPaddingPlacement": "queryInHeader",
+              "xPaddingMethod": "tokenish",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "X-Media-Chunk",
+              "uplinkChunkSize": "4096",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "32768",
+              "scMinPostsIntervalMs": "15",
+              "scMaxBufferedPosts": 1000,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 3932160,
+              "xmux": {
+                "maxConcurrency": "0",
+                "maxConnections": "8",
+                "cMaxReuseTimes": "36-96",
+                "hMaxRequestTimes": "320-640",
+                "hMaxReusableSecs": "720-1800",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-5-15"
@@ -4868,14 +5024,11 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "dropstyle.lol",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
+            "fingerprint": "edge"
           },
           "wsSettings": {
             "host": "dropstyle.lol",
-            "path": "/service/metrics/51dec2df3071/"
+            "path": "/player/metrics/97662863db53/"
           }
         },
         "tag": "bal-5-16"
@@ -4894,10 +5047,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "dropstyle.lol",
-            "fingerprint": "chrome",
-            "alpn": [
-              "http/1.1"
-            ]
+            "fingerprint": "android"
           },
           "wsSettings": {
             "host": "dropstyle.lol",
@@ -4930,29 +5080,6 @@
           }
         },
         "tag": "bal-5-18"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "dropstyle.lol",
-            "fingerprint": "safari"
-          },
-          "wsSettings": {
-            "host": "dropstyle.lol",
-            "path": "/player/metrics/97662863db53/"
-          }
-        },
-        "tag": "bal-5-19"
       },
       {
         "protocol": "vless",
@@ -5015,14 +5142,57 @@
             }
           }
         },
+        "tag": "bal-5-19"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "84.201.169.241",
+          "port": 443,
+          "id": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "api-maps.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y",
+            "spiderX": "/"
+          }
+        },
         "tag": "bal-5-20"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "84.201.169.241",
+          "port": 443,
+          "id": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "api-maps.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y"
+          }
+        },
+        "tag": "bal-5-21"
       },
       {
         "protocol": "vless",
         "settings": {
           "address": "188.72.103.4",
           "port": 443,
-          "id": "1be4129c-4aaf-46ea-a71c-669fd86c5d07",
+          "id": "000187a2-924b-8be4-b475-485a4699c80d",
           "encryption": "none",
           "level": 8
         },
@@ -5030,63 +5200,55 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "cdn2.hostleak.space",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2"
-            ]
+            "serverName": "nl-cdn.fius.dev",
+            "fingerprint": "firefox"
           },
           "xhttpSettings": {
-            "host": "cdn2.hostleak.space",
-            "path": "/api/v4/media/session/poll",
+            "host": "nl-cdn.fius.dev",
+            "path": "/api-test",
             "mode": "packet-up",
             "extra": {
               "host": "",
               "path": "",
               "mode": "",
-              "headers": {
-                "Accept": "application/vnd.api+json,+application/json,+text/plain,+*/*",
-                "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
-                "Cache-Control": "no-cache",
-                "Pragma": "no-cache"
-              },
-              "xPaddingBytes": "48-320",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
               "xPaddingObfsMode": true,
-              "xPaddingKey": "q",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "query",
+              "xPaddingKey": "dc",
+              "xPaddingHeader": "X-Cache",
+              "xPaddingPlacement": "queryInHeader",
               "xPaddingMethod": "tokenish",
-              "uplinkHTTPMethod": "GET",
+              "uplinkHTTPMethod": "OPTIONS",
               "sessionIDPlacement": "",
               "sessionIDKey": "",
               "sessionIDTable": "",
               "sessionIDLength": "0",
-              "seqPlacement": "query",
-              "seqKey": "offset",
+              "seqPlacement": "",
+              "seqKey": "",
               "uplinkDataPlacement": "header",
-              "uplinkDataKey": "X-Playback-Token",
-              "uplinkChunkSize": "0",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "4096",
               "noGRPCHeader": false,
               "noSSEHeader": false,
-              "scMaxEachPostBytes": "1536-6144",
-              "scMinPostsIntervalMs": "10-30",
-              "scMaxBufferedPosts": 64,
+              "scMaxEachPostBytes": "16384",
+              "scMinPostsIntervalMs": "10",
+              "scMaxBufferedPosts": 0,
               "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 32768,
+              "serverMaxHeaderBytes": 0,
               "xmux": {
-                "maxConcurrency": "8-16",
+                "maxConcurrency": "0",
                 "maxConnections": "0",
-                "cMaxReuseTimes": "128-256",
-                "hMaxRequestTimes": "600-1000",
-                "hMaxReusableSecs": "1800-3600",
-                "hKeepAlivePeriod": 30
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
               },
               "downloadSettings": null,
               "extra": null
             }
           }
         },
-        "tag": "bal-5-21"
+        "tag": "bal-5-22"
       },
       {
         "protocol": "vless",
@@ -5110,33 +5272,6 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-5-22"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
         "tag": "bal-5-23"
       },
       {
@@ -5153,7 +5288,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq",
+            "fingerprint": "firefox",
             "alpn": [
               "h2"
             ]
@@ -5180,7 +5315,10 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "ios"
+            "fingerprint": "qq",
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
             "host": "static.bakarova-top.ru",
@@ -5283,7 +5421,7 @@
     "stats": {}
   },
   {
-    "remarks": "🚧 | Белые списки 6 | 15",
+    "remarks": "🚧 | Белые списки 6 | 18",
     "log": {
       "loglevel": "warning"
     },
@@ -5343,11 +5481,12 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "firefox"
+            "fingerprint": "ios"
           },
           "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "auto"
+            "mode": "packet-up"
           }
         },
         "tag": "bal-6-1"
@@ -5366,7 +5505,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq"
+            "fingerprint": "firefox"
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
@@ -5389,7 +5528,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome"
+            "fingerprint": "qq"
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
@@ -5412,15 +5551,11 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome",
-            "alpn": [
-              "h2"
-            ]
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "packet-up"
+            "mode": "auto"
           }
         },
         "tag": "bal-6-4"
@@ -5439,7 +5574,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "edge",
+            "fingerprint": "chrome",
             "alpn": [
               "h2"
             ]
@@ -5466,7 +5601,10 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome"
+            "fingerprint": "edge",
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
             "host": "static.bakarova-top.ru",
@@ -5490,6 +5628,30 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-6-7"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
             "fingerprint": "edge"
           },
           "xhttpSettings": {
@@ -5497,7 +5659,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-6-7"
+        "tag": "bal-6-8"
       },
       {
         "protocol": "vless",
@@ -5524,7 +5686,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-6-8"
+        "tag": "bal-6-9"
       },
       {
         "protocol": "vless",
@@ -5551,7 +5713,70 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-6-9"
+        "tag": "bal-6-10"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.72.103.4",
+          "port": 443,
+          "id": "81d0d8e7-8760-43ee-b811-a47ab6b5957e",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "cdn1ya.mivide.app",
+            "fingerprint": "edge"
+          },
+          "xhttpSettings": {
+            "host": "cdn1ya.mivide.app",
+            "path": "/api/uploadFile/",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "0",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "X-Payload",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "4096",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "100",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 30
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
+          }
+        },
+        "tag": "bal-6-11"
       },
       {
         "protocol": "vless",
@@ -5575,7 +5800,7 @@
             "serviceName": "ozone"
           }
         },
-        "tag": "bal-6-10"
+        "tag": "bal-6-12"
       },
       {
         "protocol": "vless",
@@ -5599,7 +5824,7 @@
             "serviceName": "ozone"
           }
         },
-        "tag": "bal-6-11"
+        "tag": "bal-6-13"
       },
       {
         "protocol": "vless",
@@ -5623,7 +5848,29 @@
             "serviceName": "ozone"
           }
         },
-        "tag": "bal-6-12"
+        "tag": "bal-6-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.190",
+          "port": 7445,
+          "id": "66217279-de40-4b62-b2bb-9c33b8fb7a01",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "random",
+            "publicKey": "S_s3FVodJIep88KnIgT0cZLUMB2tAJHTJEn0o-J03G8",
+            "shortId": "283f4b51fbe39ad9"
+          }
+        },
+        "tag": "bal-6-15"
       },
       {
         "protocol": "vless",
@@ -5686,7 +5933,7 @@
             }
           }
         },
-        "tag": "bal-6-13"
+        "tag": "bal-6-16"
       },
       {
         "protocol": "vless",
@@ -5753,7 +6000,7 @@
             }
           }
         },
-        "tag": "bal-6-14"
+        "tag": "bal-6-17"
       },
       {
         "protocol": "vless",
@@ -5769,11 +6016,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "ch-cdn.fius.dev",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
+            "fingerprint": "firefox"
           },
           "xhttpSettings": {
             "host": "ch-cdn.fius.dev",
@@ -5820,7 +6063,7 @@
             }
           }
         },
-        "tag": "bal-6-15"
+        "tag": "bal-6-18"
       },
       {
         "protocol": "freedom",
