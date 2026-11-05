@@ -99,9 +99,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.86.147.184",
-          "port": 9449,
-          "id": "26ca282d-511d-4f32-8e9b-1a61a1a5169a",
+          "address": "185.86.145.112",
+          "port": 10452,
+          "id": "12fd3a3e-31dd-49bc-91df-44834c58e1b2",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -112,8 +112,8 @@
           "realitySettings": {
             "serverName": "passport.yandex.ru",
             "fingerprint": "firefox",
-            "publicKey": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
-            "shortId": "62002c0a685ac208",
+            "publicKey": "L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo",
+            "shortId": "c8a79c7b64adca2a",
             "spiderX": "/"
           }
         },
@@ -124,7 +124,7 @@
         "settings": {
           "address": "185.86.147.143",
           "port": 7443,
-          "id": "26ca282d-511d-4f32-8e9b-1a61a1a5169a",
+          "id": "12fd3a3e-31dd-49bc-91df-44834c58e1b2",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -145,22 +145,24 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.86.145.112",
-          "port": 10452,
-          "id": "26ca282d-511d-4f32-8e9b-1a61a1a5169a",
+          "address": "95.129.236.149",
+          "port": 443,
+          "id": "12fd3a3e-31dd-49bc-91df-44834c58e1b2",
           "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
+          "level": 8
         },
         "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "d.nehtar.ru",
             "fingerprint": "firefox",
-            "publicKey": "L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo",
-            "shortId": "c8a79c7b64adca2a",
-            "spiderX": "/"
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "path": "/gateway/v1/ws/74c4d5e82a8e50ccf09fc628c17dc9be"
           }
         },
         "tag": "bal-1-5"
@@ -170,7 +172,7 @@
         "settings": {
           "address": "91.185.83.105",
           "port": 9443,
-          "id": "26ca282d-511d-4f32-8e9b-1a61a1a5169a",
+          "id": "12fd3a3e-31dd-49bc-91df-44834c58e1b2",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -190,24 +192,22 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "95.129.236.149",
-          "port": 443,
-          "id": "26ca282d-511d-4f32-8e9b-1a61a1a5169a",
+          "address": "185.86.147.184",
+          "port": 9449,
+          "id": "12fd3a3e-31dd-49bc-91df-44834c58e1b2",
           "encryption": "none",
-          "level": 8
+          "level": 8,
+          "flow": "xtls-rprx-vision"
         },
         "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "d.nehtar.ru",
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
             "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "path": "/gateway/v1/ws/74c4d5e82a8e50ccf09fc628c17dc9be"
+            "publicKey": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
+            "shortId": "62002c0a685ac208",
+            "spiderX": "/"
           }
         },
         "tag": "bal-1-7"
@@ -1504,7 +1504,7 @@
     "stats": {}
   },
   {
-    "remarks": "🚧 | Белые списки 3 | 12",
+    "remarks": "🚧 | Белые списки 3 | 8",
     "log": {
       "loglevel": "warning"
     },
@@ -1752,94 +1752,6 @@
           }
         },
         "tag": "bal-3-8"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "81.163.22.194",
-          "port": 443,
-          "id": "fb37d713-0ed3-4146-b085-a5c879a9aafa",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "apply.betust.net",
-            "fingerprint": "firefox",
-            "publicKey": "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk",
-            "shortId": "b20168a5"
-          }
-        },
-        "tag": "bal-3-9"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "81.163.22.194",
-          "port": 443,
-          "id": "fb37d713-0ed3-4146-b085-a5c879a9aafa",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "apply.betust.net",
-            "fingerprint": "ios",
-            "publicKey": "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk",
-            "shortId": "b20168a5"
-          }
-        },
-        "tag": "bal-3-10"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "81.163.22.194",
-          "port": 443,
-          "id": "fb37d713-0ed3-4146-b085-a5c879a9aafa",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "apply.betust.net",
-            "fingerprint": "chrome",
-            "publicKey": "T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk",
-            "shortId": "b20168a5"
-          }
-        },
-        "tag": "bal-3-11"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "81.163.22.143",
-          "port": 443,
-          "id": "fb37d713-0ed3-4146-b085-a5c879a9aafa",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "join.betust.net",
-            "fingerprint": "firefox",
-            "publicKey": "GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE",
-            "shortId": "351224a7"
-          }
-        },
-        "tag": "bal-3-12"
       },
       {
         "protocol": "freedom",
