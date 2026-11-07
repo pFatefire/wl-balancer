@@ -49,22 +49,62 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.86.147.184",
-          "port": 9449,
-          "id": "9cdb515f-75d2-4ddf-8c23-0c5062233f61",
+          "address": "188.72.111.2",
+          "port": 443,
+          "id": "7d43670b-6b08-45b9-8a24-8f3971abc132",
           "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
+          "level": 8
         },
         "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "firefox",
-            "publicKey": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
-            "shortId": "62002c0a685ac208",
-            "spiderX": "/"
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "ya.biznes.lol",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "ya.biznes.lol",
+            "path": "/09faea83d65c",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "0",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "7000-8000",
+              "noGRPCHeader": true,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "40000",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "0",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-1-1"
@@ -72,24 +112,62 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "95.129.236.149",
+          "address": "188.72.103.4",
           "port": 443,
-          "id": "9cdb515f-75d2-4ddf-8c23-0c5062233f61",
+          "id": "00a560f4-035e-48eb-b698-6f6be0b5e477",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "d.nehtar.ru",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
+            "serverName": "decdn2.bota7.com",
+            "fingerprint": "chrome"
           },
-          "wsSettings": {
-            "path": "/gateway/v1/ws/74c4d5e82a8e50ccf09fc628c17dc9be"
+          "xhttpSettings": {
+            "host": "decdn2.bota7.com",
+            "path": "/api/v4/lop/",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "100-1000",
+              "xPaddingObfsMode": true,
+              "xPaddingKey": "_t",
+              "xPaddingHeader": "X-CSRFToken",
+              "xPaddingPlacement": "queryInHeader",
+              "xPaddingMethod": "tokenish",
+              "uplinkHTTPMethod": "HEAD",
+              "sessionIDPlacement": "cookie",
+              "sessionIDKey": "session_id",
+              "sessionIDTable": "Base62",
+              "sessionIDLength": "16-32",
+              "seqPlacement": "cookie",
+              "seqKey": "csrftoken",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "data",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": true,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "1000000",
+              "scMinPostsIntervalMs": "30",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "600-900",
+                "hMaxReusableSecs": "1800-3000",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-1-2"
@@ -99,7 +177,7 @@
         "settings": {
           "address": "185.86.145.106",
           "port": 10452,
-          "id": "9cdb515f-75d2-4ddf-8c23-0c5062233f61",
+          "id": "24ada6e7-ad2a-4cef-a8b8-91028e4f5f24",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -120,9 +198,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "87.242.127.51",
-          "port": 7452,
-          "id": "9cdb515f-75d2-4ddf-8c23-0c5062233f61",
+          "address": "185.86.147.184",
+          "port": 9449,
+          "id": "24ada6e7-ad2a-4cef-a8b8-91028e4f5f24",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -133,8 +211,8 @@
           "realitySettings": {
             "serverName": "passport.yandex.ru",
             "fingerprint": "firefox",
-            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
-            "shortId": "190c27ae5f2e4d2c",
+            "publicKey": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
+            "shortId": "62002c0a685ac208",
             "spiderX": "/"
           }
         },
@@ -143,9 +221,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.86.147.143",
-          "port": 7443,
-          "id": "9cdb515f-75d2-4ddf-8c23-0c5062233f61",
+          "address": "87.242.127.51",
+          "port": 7452,
+          "id": "24ada6e7-ad2a-4cef-a8b8-91028e4f5f24",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -166,9 +244,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "91.185.83.105",
-          "port": 9443,
-          "id": "9cdb515f-75d2-4ddf-8c23-0c5062233f61",
+          "address": "185.86.145.216",
+          "port": 32944,
+          "id": "24ada6e7-ad2a-4cef-a8b8-91028e4f5f24",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -188,9 +266,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.86.145.216",
-          "port": 32944,
-          "id": "9cdb515f-75d2-4ddf-8c23-0c5062233f61",
+          "address": "91.185.83.105",
+          "port": 9443,
+          "id": "24ada6e7-ad2a-4cef-a8b8-91028e4f5f24",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -206,6 +284,54 @@
           }
         },
         "tag": "bal-1-7"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.147.143",
+          "port": 7443,
+          "id": "24ada6e7-ad2a-4cef-a8b8-91028e4f5f24",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
+            "shortId": "190c27ae5f2e4d2c",
+            "spiderX": "/"
+          }
+        },
+        "tag": "bal-1-8"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "95.129.236.149",
+          "port": 443,
+          "id": "24ada6e7-ad2a-4cef-a8b8-91028e4f5f24",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "d.nehtar.ru",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "path": "/gateway/v1/ws/74c4d5e82a8e50ccf09fc628c17dc9be"
+          }
+        },
+        "tag": "bal-1-9"
       },
       {
         "protocol": "vless",
@@ -227,7 +353,7 @@
             "spiderX": "/"
           }
         },
-        "tag": "bal-1-8"
+        "tag": "bal-1-10"
       },
       {
         "protocol": "vless",
@@ -249,57 +375,6 @@
             "spiderX": "/"
           }
         },
-        "tag": "bal-1-9"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-1-10"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
         "tag": "bal-1-11"
       },
       {
@@ -316,10 +391,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq",
-            "alpn": [
-              "h2"
-            ]
+            "fingerprint": "firefox"
           },
           "xhttpSettings": {
             "host": "static.bakarova-top.ru",
@@ -413,11 +485,15 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome"
+            "fingerprint": "qq",
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "auto"
+            "mode": "packet-up"
           }
         },
         "tag": "bal-1-16"
@@ -436,7 +512,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "edge",
+            "fingerprint": "firefox",
             "alpn": [
               "h2"
             ]
@@ -463,15 +539,11 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome",
-            "alpn": [
-              "h2"
-            ]
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "packet-up"
+            "mode": "auto"
           }
         },
         "tag": "bal-1-18"
@@ -490,7 +562,10 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome"
+            "fingerprint": "chrome",
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
             "host": "static.bakarova-top.ru",
@@ -514,6 +589,57 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
+            "fingerprint": "edge",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-1-20"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-1-21"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
             "fingerprint": "edge"
           },
           "xhttpSettings": {
@@ -521,7 +647,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-1-20"
+        "tag": "bal-1-22"
       },
       {
         "protocol": "vless",
@@ -548,7 +674,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-1-21"
+        "tag": "bal-1-23"
       },
       {
         "protocol": "vless",
@@ -575,56 +701,6 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-1-22"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-1-23"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq"
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
         "tag": "bal-1-24"
       },
       {
@@ -641,7 +717,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "edge"
+            "fingerprint": "qq"
           },
           "xhttpSettings": {
             "host": "static.bakarova-top.ru",
@@ -804,11 +880,14 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "firefox"
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "auto"
+            "mode": "packet-up"
           }
         },
         "tag": "bal-2-1"
@@ -827,12 +906,10 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome",
-            "alpn": [
-              "h2"
-            ]
+            "fingerprint": "edge"
           },
           "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
             "path": "/api/v2/events",
             "mode": "packet-up"
           }
@@ -902,14 +979,11 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "edge",
-            "alpn": [
-              "h2"
-            ]
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
-            "mode": "packet-up"
+            "mode": "auto"
           }
         },
         "tag": "bal-2-5"
@@ -953,7 +1027,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "edge"
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
@@ -1002,7 +1076,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "firefox"
+            "fingerprint": "edge"
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
@@ -1025,11 +1099,14 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "edge"
+            "fingerprint": "edge",
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
-            "mode": "auto"
+            "mode": "packet-up"
           }
         },
         "tag": "bal-2-10"
@@ -1048,14 +1125,37 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "safari"
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-2-11"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "edge"
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
             "mode": "auto"
           }
         },
-        "tag": "bal-2-11"
+        "tag": "bal-2-12"
       },
       {
         "protocol": "vless",
@@ -1079,33 +1179,6 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-2-12"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "api.bakarova-top.ru",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "api.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
         "tag": "bal-2-13"
       },
       {
@@ -1121,16 +1194,12 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "api.bakarova-top.ru",
-            "fingerprint": "chrome",
-            "alpn": [
-              "h2"
-            ]
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "safari"
           },
           "xhttpSettings": {
-            "host": "api.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "packet-up"
+            "mode": "auto"
           }
         },
         "tag": "bal-2-14"
@@ -1175,11 +1244,10 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "api.bakarova-top.ru",
-            "fingerprint": "chrome"
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "qq"
           },
           "xhttpSettings": {
-            "host": "api.bakarova-top.ru",
             "path": "/api/v2/events",
             "mode": "packet-up"
           }
@@ -1199,10 +1267,14 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "ios"
+            "serverName": "api.bakarova-top.ru",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
+            "host": "api.bakarova-top.ru",
             "path": "/api/v2/events",
             "mode": "packet-up"
           }
@@ -1223,10 +1295,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "api.bakarova-top.ru",
-            "fingerprint": "ios",
-            "alpn": [
-              "h2"
-            ]
+            "fingerprint": "chrome"
           },
           "xhttpSettings": {
             "host": "api.bakarova-top.ru",
@@ -1250,7 +1319,10 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "api.bakarova-top.ru",
-            "fingerprint": "safari"
+            "fingerprint": "ios",
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
             "host": "api.bakarova-top.ru",
@@ -1259,52 +1331,6 @@
           }
         },
         "tag": "bal-2-19"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "safari"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-2-20"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-2-21"
       },
       {
         "protocol": "vless",
@@ -1330,7 +1356,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-22"
+        "tag": "bal-2-20"
       },
       {
         "protocol": "vless",
@@ -1357,7 +1383,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-23"
+        "tag": "bal-2-21"
       },
       {
         "protocol": "vless",
@@ -1380,7 +1406,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-2-24"
+        "tag": "bal-2-22"
       },
       {
         "protocol": "vless",
@@ -1397,6 +1423,56 @@
           "tlsSettings": {
             "serverName": "api.bakarova-top.ru",
             "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-2-23"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "chrome",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-2-24"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "api.bakarova-top.ru",
+            "fingerprint": "safari"
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
@@ -1498,7 +1574,7 @@
     "stats": {}
   },
   {
-    "remarks": "🚧 | Белые списки 3 | 11",
+    "remarks": "🚧 | Белые списки 3 | 15",
     "log": {
       "loglevel": "warning"
     },
@@ -1558,7 +1634,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome",
+            "fingerprint": "qq",
             "alpn": [
               "h2"
             ]
@@ -1588,8 +1664,9 @@
             "fingerprint": "safari"
           },
           "xhttpSettings": {
+            "host": "api.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "auto"
+            "mode": "packet-up"
           }
         },
         "tag": "bal-3-2"
@@ -1608,7 +1685,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq",
+            "fingerprint": "edge",
             "alpn": [
               "h2"
             ]
@@ -1624,9 +1701,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.72.111.37",
+          "address": "185.178.208.140",
           "port": 443,
-          "id": "709c2629-68cb-4d3b-a340-d65cd93d1136",
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
           "encryption": "none",
           "level": 8
         },
@@ -1634,55 +1711,12 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "arch.ashleytears.cfd",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2"
-            ]
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "ios"
           },
           "xhttpSettings": {
-            "host": "arch.ashleytears.cfd",
-            "path": "/iso/2026.10.01/archlinux-2026.10.01-x86_64.iso",
-            "mode": "packet-up",
-            "extra": {
-              "host": "",
-              "path": "",
-              "mode": "",
-              "headers": null,
-              "xPaddingBytes": "0",
-              "xPaddingObfsMode": false,
-              "xPaddingKey": "",
-              "xPaddingHeader": "",
-              "xPaddingPlacement": "",
-              "xPaddingMethod": "",
-              "uplinkHTTPMethod": "GET",
-              "sessionIDPlacement": "query",
-              "sessionIDKey": "media_sid",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "query",
-              "seqKey": "offset",
-              "uplinkDataPlacement": "header",
-              "uplinkDataKey": "data",
-              "uplinkChunkSize": "2048-3072",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "9216",
-              "scMinPostsIntervalMs": "3",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 16384,
-              "xmux": {
-                "maxConcurrency": "0",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "0",
-                "hMaxRequestTimes": "0",
-                "hMaxReusableSecs": "0",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
+            "path": "/api/v2/events",
+            "mode": "packet-up"
           }
         },
         "tag": "bal-3-4"
@@ -1700,15 +1734,16 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "safari",
+            "serverName": "api.bakarova-top.ru",
+            "fingerprint": "chrome",
             "alpn": [
               "h2"
             ]
           },
           "xhttpSettings": {
+            "host": "api.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "auto"
+            "mode": "packet-up"
           }
         },
         "tag": "bal-3-5"
@@ -1727,7 +1762,7 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "ios",
+            "fingerprint": "safari",
             "alpn": [
               "h2"
             ]
@@ -1778,12 +1813,13 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome"
+            "serverName": "api.bakarova-top.ru",
+            "fingerprint": "ios"
           },
           "xhttpSettings": {
+            "host": "api.bakarova-top.ru",
             "path": "/api/v2/events",
-            "mode": "auto"
+            "mode": "packet-up"
           }
         },
         "tag": "bal-3-8"
@@ -1801,15 +1837,87 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
+            "serverName": "api.bakarova-top.ru",
+            "fingerprint": "ios"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-3-9"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome"
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-3-10"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "chrome",
+            "alpn": [
+              "h2"
+            ]
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
             "mode": "packet-up"
           }
         },
-        "tag": "bal-3-9"
+        "tag": "bal-3-11"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "safari"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-3-12"
       },
       {
         "protocol": "vless",
@@ -1835,7 +1943,33 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-3-10"
+        "tag": "bal-3-13"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "ios",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-3-14"
       },
       {
         "protocol": "vless",
@@ -1857,12 +1991,11 @@
             ]
           },
           "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
             "path": "/api/v2/events",
             "mode": "auto"
           }
         },
-        "tag": "bal-3-11"
+        "tag": "bal-3-15"
       },
       {
         "protocol": "freedom",
