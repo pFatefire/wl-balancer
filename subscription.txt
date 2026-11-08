@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🚧 | Белые списки 1 | 7",
+    "remarks": "🚧 | Белые списки 1 | 18",
     "log": {
       "loglevel": "warning"
     },
@@ -49,9 +49,160 @@
       {
         "protocol": "vless",
         "settings": {
+          "address": "185.86.145.174",
+          "port": 9444,
+          "id": "0894db40-59c1-41b7-baa5-173c16f5c70d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "kFbLiztysJGEnqzWRH1JLbPzDUZyaI1eglpD4ORSOyA",
+            "shortId": "309975573a744b32"
+          }
+        },
+        "tag": "bal-1-1"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.145.223",
+          "port": 10443,
+          "id": "0894db40-59c1-41b7-baa5-173c16f5c70d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "kFbLiztysJGEnqzWRH1JLbPzDUZyaI1eglpD4ORSOyA",
+            "shortId": "309975573a744b32"
+          }
+        },
+        "tag": "bal-1-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.145.216",
+          "port": 9444,
+          "id": "0894db40-59c1-41b7-baa5-173c16f5c70d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "kFbLiztysJGEnqzWRH1JLbPzDUZyaI1eglpD4ORSOyA",
+            "shortId": "309975573a744b32"
+          }
+        },
+        "tag": "bal-1-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.145.55",
+          "port": 9443,
+          "id": "0894db40-59c1-41b7-baa5-173c16f5c70d",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "vZ22ThhkpXUd5-tY-v5TTrouLHjgYYmeQgqeLt7HRz0"
+          }
+        },
+        "tag": "bal-1-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.22.234.209",
+          "port": 443,
+          "id": "0894db40-59c1-41b7-baa5-173c16f5c70d",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ihc15.maxleshax.icu",
+            "fingerprint": "firefox",
+            "publicKey": "vZ22ThhkpXUd5-tY-v5TTrouLHjgYYmeQgqeLt7HRz0"
+          }
+        },
+        "tag": "bal-1-5"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.147.143",
+          "port": 7443,
+          "id": "541d13dc-4cd5-404e-99a8-9be0f03afcaf",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
+            "shortId": "190c27ae5f2e4d2c",
+            "spiderX": "/"
+          }
+        },
+        "tag": "bal-1-6"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "87.242.127.51",
+          "port": 7452,
+          "id": "541d13dc-4cd5-404e-99a8-9be0f03afcaf",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
+            "shortId": "190c27ae5f2e4d2c",
+            "spiderX": "/"
+          }
+        },
+        "tag": "bal-1-7"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
           "address": "185.86.145.216",
           "port": 32944,
-          "id": "6d026a0f-32a0-427c-9080-8b68d31eaf16",
+          "id": "541d13dc-4cd5-404e-99a8-9be0f03afcaf",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -66,83 +217,14 @@
             "shortId": "91d2d3db690f4b59"
           }
         },
-        "tag": "bal-1-1"
+        "tag": "bal-1-8"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "87.242.127.51",
-          "port": 7452,
-          "id": "6d026a0f-32a0-427c-9080-8b68d31eaf16",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "firefox",
-            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
-            "shortId": "190c27ae5f2e4d2c",
-            "spiderX": "/"
-          }
-        },
-        "tag": "bal-1-2"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.86.147.184",
-          "port": 9449,
-          "id": "6d026a0f-32a0-427c-9080-8b68d31eaf16",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "firefox",
-            "publicKey": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
-            "shortId": "62002c0a685ac208",
-            "spiderX": "/"
-          }
-        },
-        "tag": "bal-1-3"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.86.147.143",
-          "port": 7443,
-          "id": "6d026a0f-32a0-427c-9080-8b68d31eaf16",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "firefox",
-            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
-            "shortId": "190c27ae5f2e4d2c",
-            "spiderX": "/"
-          }
-        },
-        "tag": "bal-1-4"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.86.147.85",
+          "address": "185.86.145.174",
           "port": 10452,
-          "id": "6d026a0f-32a0-427c-9080-8b68d31eaf16",
+          "id": "541d13dc-4cd5-404e-99a8-9be0f03afcaf",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -158,7 +240,30 @@
             "spiderX": "/"
           }
         },
-        "tag": "bal-1-5"
+        "tag": "bal-1-9"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.147.184",
+          "port": 9449,
+          "id": "541d13dc-4cd5-404e-99a8-9be0f03afcaf",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
+            "shortId": "62002c0a685ac208",
+            "spiderX": "/"
+          }
+        },
+        "tag": "bal-1-10"
       },
       {
         "protocol": "vless",
@@ -181,7 +286,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-6"
+        "tag": "bal-1-11"
       },
       {
         "protocol": "vless",
@@ -204,7 +309,157 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-7"
+        "tag": "bal-1-12"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "stechnostore.life",
+            "fingerprint": "edge"
+          },
+          "wsSettings": {
+            "host": "stechnostore.life",
+            "path": "/player/collect/9c8514f9552d/"
+          }
+        },
+        "tag": "bal-1-13"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "stechnostore.life",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "stechnostore.life",
+            "path": "/player/collect/9c8514f9552d/"
+          }
+        },
+        "tag": "bal-1-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "stechnostore.life",
+            "fingerprint": "qq",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "stechnostore.life",
+            "path": "/player/collect/9c8514f9552d/"
+          }
+        },
+        "tag": "bal-1-15"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "stechnostore.life",
+            "fingerprint": "android"
+          },
+          "wsSettings": {
+            "host": "stechnostore.life",
+            "path": "/player/collect/9c8514f9552d/"
+          }
+        },
+        "tag": "bal-1-16"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "stechnostore.life",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "stechnostore.life",
+            "path": "/player/collect/9c8514f9552d/"
+          }
+        },
+        "tag": "bal-1-17"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "stechnostore.life",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "stechnostore.life",
+            "path": "/player/collect/9c8514f9552d/"
+          }
+        },
+        "tag": "bal-1-18"
       },
       {
         "protocol": "freedom",
