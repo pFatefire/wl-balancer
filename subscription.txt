@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🚧 | Белые списки 1 | 20",
+    "remarks": "🚧 | Белые списки 1 | 21",
     "log": {
       "loglevel": "warning"
     },
@@ -49,9 +49,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "87.242.127.51",
-          "port": 7452,
-          "id": "bb055efe-30a8-4382-9929-d4c6fc93b0f7",
+          "address": "185.86.145.174",
+          "port": 10452,
+          "id": "d9384184-038d-4186-98b9-bfaca62a7562",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -62,8 +62,8 @@
           "realitySettings": {
             "serverName": "passport.yandex.ru",
             "fingerprint": "firefox",
-            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
-            "shortId": "190c27ae5f2e4d2c",
+            "publicKey": "L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo",
+            "shortId": "c8a79c7b64adca2a",
             "spiderX": "/"
           }
         },
@@ -74,7 +74,7 @@
         "settings": {
           "address": "185.86.147.143",
           "port": 7443,
-          "id": "bb055efe-30a8-4382-9929-d4c6fc93b0f7",
+          "id": "d9384184-038d-4186-98b9-bfaca62a7562",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -95,9 +95,32 @@
       {
         "protocol": "vless",
         "settings": {
+          "address": "87.242.127.51",
+          "port": 7452,
+          "id": "d9384184-038d-4186-98b9-bfaca62a7562",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
+            "shortId": "190c27ae5f2e4d2c",
+            "spiderX": "/"
+          }
+        },
+        "tag": "bal-1-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
           "address": "185.86.147.184",
           "port": 9449,
-          "id": "bb055efe-30a8-4382-9929-d4c6fc93b0f7",
+          "id": "d9384184-038d-4186-98b9-bfaca62a7562",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -113,29 +136,6 @@
             "spiderX": "/"
           }
         },
-        "tag": "bal-1-3"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.86.145.174",
-          "port": 10452,
-          "id": "bb055efe-30a8-4382-9929-d4c6fc93b0f7",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "firefox",
-            "publicKey": "L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo",
-            "shortId": "c8a79c7b64adca2a",
-            "spiderX": "/"
-          }
-        },
         "tag": "bal-1-4"
       },
       {
@@ -143,7 +143,7 @@
         "settings": {
           "address": "185.86.145.216",
           "port": 32944,
-          "id": "bb055efe-30a8-4382-9929-d4c6fc93b0f7",
+          "id": "d9384184-038d-4186-98b9-bfaca62a7562",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -219,34 +219,12 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "empanel.injlab.org",
-            "fingerprint": "firefox",
-            "publicKey": "1WWCm1gHVrghowSVLWlBq_ofcJThgEYUclB1oR22bBg",
-            "shortId": "a870ef67d6260fa7"
-          }
-        },
-        "tag": "bal-1-8"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "194.55.239.47",
-          "port": 443,
-          "id": "75d1a1e9-cc7c-000a-92c7-1357c6a37875",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "empanel.injlab.org",
             "fingerprint": "edge",
             "publicKey": "1WWCm1gHVrghowSVLWlBq_ofcJThgEYUclB1oR22bBg",
             "shortId": "a870ef67d6260fa7"
           }
         },
-        "tag": "bal-1-9"
+        "tag": "bal-1-8"
       },
       {
         "protocol": "vless",
@@ -269,7 +247,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-10"
+        "tag": "bal-1-9"
       },
       {
         "protocol": "vless",
@@ -292,7 +270,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-11"
+        "tag": "bal-1-10"
       },
       {
         "protocol": "vless",
@@ -315,7 +293,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-12"
+        "tag": "bal-1-11"
       },
       {
         "protocol": "vless",
@@ -341,7 +319,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-13"
+        "tag": "bal-1-12"
       },
       {
         "protocol": "vless",
@@ -367,7 +345,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-14"
+        "tag": "bal-1-13"
       },
       {
         "protocol": "vless",
@@ -390,7 +368,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-15"
+        "tag": "bal-1-14"
       },
       {
         "protocol": "vless",
@@ -416,7 +394,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-16"
+        "tag": "bal-1-15"
       },
       {
         "protocol": "vless",
@@ -442,7 +420,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-17"
+        "tag": "bal-1-16"
       },
       {
         "protocol": "vless",
@@ -465,7 +443,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-18"
+        "tag": "bal-1-17"
       },
       {
         "protocol": "vless",
@@ -491,7 +469,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-1-19"
+        "tag": "bal-1-18"
       },
       {
         "protocol": "vless",
@@ -514,7 +492,92 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
+        "tag": "bal-1-19"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "194.55.239.47",
+          "port": 443,
+          "id": "75d1a1e9-cc7c-000a-92c7-1357c6a37875",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "empanel.injlab.org",
+            "fingerprint": "firefox",
+            "publicKey": "1WWCm1gHVrghowSVLWlBq_ofcJThgEYUclB1oR22bBg",
+            "shortId": "a870ef67d6260fa7"
+          }
+        },
         "tag": "bal-1-20"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.72.111.50",
+          "port": 443,
+          "id": "07182f67-0f26-4918-88b5-28f52ba1a35b",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "second.spoofik.fun",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "second.spoofik.fun",
+            "path": "/static/v1/frames/",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "/static/v1/frames/",
+              "mode": "packet-up",
+              "headers": null,
+              "xPaddingBytes": "96-1040",
+              "xPaddingObfsMode": true,
+              "xPaddingKey": "_t",
+              "xPaddingHeader": "X-Media-Token",
+              "xPaddingPlacement": "queryInHeader",
+              "xPaddingMethod": "tokenish",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "cookie",
+              "sessionIDKey": "stream_auth",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "cookie",
+              "seqKey": "part_index",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "X-Uplink-Data",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "48000",
+              "scMinPostsIntervalMs": "70",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 262144,
+              "xmux": {
+                "maxConcurrency": "8-24",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "36-96",
+                "hMaxRequestTimes": "320-640",
+                "hMaxReusableSecs": "720-1800",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
+          }
+        },
+        "tag": "bal-1-21"
       },
       {
         "protocol": "freedom",
