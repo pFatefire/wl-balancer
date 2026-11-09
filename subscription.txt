@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🚧 | Белые списки 1 | 20",
+    "remarks": "🚧 | Белые списки 1 | 4",
     "log": {
       "loglevel": "warning"
     },
@@ -51,7 +51,7 @@
         "settings": {
           "address": "87.242.127.51",
           "port": 7452,
-          "id": "43c32de5-76c6-4477-ae56-dfa19e307fa8",
+          "id": "8da1c2a0-9c09-444b-998a-1c4c017f61b6",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -72,31 +72,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.86.145.216",
-          "port": 32944,
-          "id": "43c32de5-76c6-4477-ae56-dfa19e307fa8",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "firefox",
-            "publicKey": "Te3ZcFFTilb6_j4hdotSvXaRYBzGuNiRxuBh8n1NezU",
-            "shortId": "91d2d3db690f4b59"
-          }
-        },
-        "tag": "bal-1-2"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
           "address": "185.86.145.174",
           "port": 10452,
-          "id": "43c32de5-76c6-4477-ae56-dfa19e307fa8",
+          "id": "8da1c2a0-9c09-444b-998a-1c4c017f61b6",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -112,6 +90,28 @@
             "spiderX": "/"
           }
         },
+        "tag": "bal-1-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.86.145.216",
+          "port": 32944,
+          "id": "8da1c2a0-9c09-444b-998a-1c4c017f61b6",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "Te3ZcFFTilb6_j4hdotSvXaRYBzGuNiRxuBh8n1NezU",
+            "shortId": "91d2d3db690f4b59"
+          }
+        },
         "tag": "bal-1-3"
       },
       {
@@ -119,7 +119,7 @@
         "settings": {
           "address": "185.86.147.143",
           "port": 7443,
-          "id": "43c32de5-76c6-4477-ae56-dfa19e307fa8",
+          "id": "8da1c2a0-9c09-444b-998a-1c4c017f61b6",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -136,433 +136,6 @@
           }
         },
         "tag": "bal-1-4"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.86.147.184",
-          "port": 9449,
-          "id": "43c32de5-76c6-4477-ae56-dfa19e307fa8",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "firefox",
-            "publicKey": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
-            "shortId": "62002c0a685ac208",
-            "spiderX": "/"
-          }
-        },
-        "tag": "bal-1-5"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "188.225.58.201",
-          "port": 443,
-          "id": "5f1c2e83-d4aa-4f10-81e9-e0ccc018974c",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "xtw3x.artemida.digital",
-            "fingerprint": "firefox",
-            "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
-            "shortId": "a1b2c3d4e5f6a7b8"
-          },
-          "grpcSettings": {
-            "serviceName": ""
-          }
-        },
-        "tag": "bal-1-6"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "firefox"
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-7"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "firefox"
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-8"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "edge"
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-9"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-10"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "qq",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-11"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "android"
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-12"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "chrome",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-13"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-14"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "android"
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-15"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "safari",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-16"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "chrome"
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-17"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "chrome",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-18"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "safari"
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-1-19"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "188.72.111.50",
-          "port": 443,
-          "id": "07182f67-0f26-4918-88b5-28f52ba1a35b",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "second.spoofik.fun",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "second.spoofik.fun",
-            "path": "/static/v1/frames/",
-            "mode": "packet-up",
-            "extra": {
-              "host": "",
-              "path": "/static/v1/frames/",
-              "mode": "packet-up",
-              "headers": null,
-              "xPaddingBytes": "96-1040",
-              "xPaddingObfsMode": true,
-              "xPaddingKey": "_t",
-              "xPaddingHeader": "X-Media-Token",
-              "xPaddingPlacement": "queryInHeader",
-              "xPaddingMethod": "tokenish",
-              "uplinkHTTPMethod": "GET",
-              "sessionIDPlacement": "cookie",
-              "sessionIDKey": "stream_auth",
-              "sessionIDTable": "",
-              "sessionIDLength": "0",
-              "seqPlacement": "cookie",
-              "seqKey": "part_index",
-              "uplinkDataPlacement": "header",
-              "uplinkDataKey": "X-Uplink-Data",
-              "uplinkChunkSize": "0",
-              "noGRPCHeader": false,
-              "noSSEHeader": false,
-              "scMaxEachPostBytes": "48000",
-              "scMinPostsIntervalMs": "70",
-              "scMaxBufferedPosts": 0,
-              "scStreamUpServerSecs": "0",
-              "serverMaxHeaderBytes": 262144,
-              "xmux": {
-                "maxConcurrency": "8-24",
-                "maxConnections": "0",
-                "cMaxReuseTimes": "36-96",
-                "hMaxRequestTimes": "320-640",
-                "hMaxReusableSecs": "720-1800",
-                "hKeepAlivePeriod": 0
-              },
-              "downloadSettings": null,
-              "extra": null
-            }
-          }
-        },
-        "tag": "bal-1-20"
       },
       {
         "protocol": "freedom",
