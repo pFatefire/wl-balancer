@@ -49,22 +49,21 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
-          "port": 444,
-          "id": "37af0181-5598-4aad-a040-d926bcb65757",
+          "address": "188.225.42.208",
+          "port": 443,
+          "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
           "encryption": "none",
-          "level": 8
+          "level": 8,
+          "flow": "xtls-rprx-vision"
         },
         "streamSettings": {
-          "network": "grpc",
+          "network": "raw",
           "security": "reality",
           "realitySettings": {
-            "serverName": "passport.yandex.ru",
+            "serverName": "shop.okhta-mebel.site",
             "fingerprint": "firefox",
-            "publicKey": "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
-          },
-          "grpcSettings": {
-            "serviceName": "grpc"
+            "publicKey": "CfHPtlNvqfK3QPvYfV7u-NjZcQh-buXZTA9gaGwvKmI",
+            "shortId": "b781a152ee"
           }
         },
         "tag": "bal-1-1"
@@ -72,9 +71,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
-          "port": 444,
-          "id": "37af0181-5598-4aad-a040-d926bcb65757",
+          "address": "188.225.58.201",
+          "port": 443,
+          "id": "5f1c2e83-d4aa-4f10-81e9-e0ccc018974c",
           "encryption": "none",
           "level": 8
         },
@@ -82,12 +81,13 @@
           "network": "grpc",
           "security": "reality",
           "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "edge",
-            "publicKey": "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
+            "serverName": "xtw3x.artemida.digital",
+            "fingerprint": "firefox",
+            "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
+            "shortId": "a1b2c3d4e5f6a7b8"
           },
           "grpcSettings": {
-            "serviceName": "grpc"
+            "serviceName": ""
           }
         },
         "tag": "bal-1-2"
@@ -95,9 +95,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
-          "port": 444,
-          "id": "37af0181-5598-4aad-a040-d926bcb65757",
+          "address": "5.178.85.237",
+          "port": 8443,
+          "id": "2adb62d3-f5a3-44da-9db6-17e20d138c9e",
           "encryption": "none",
           "level": 8
         },
@@ -105,12 +105,13 @@
           "network": "grpc",
           "security": "reality",
           "realitySettings": {
-            "serverName": "passport.yandex.ru",
-            "fingerprint": "ios",
-            "publicKey": "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
+            "serverName": "5post-gate.x5.ru",
+            "fingerprint": "qq",
+            "publicKey": "qelF5ISLNY4UwIbV2PspjgWe9_8oZeVEbIbXFlkakx4",
+            "shortId": "23bc2471787cce68"
           },
           "grpcSettings": {
-            "serviceName": "grpc"
+            "serviceName": ""
           }
         },
         "tag": "bal-1-3"
@@ -118,22 +119,22 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
-          "port": 444,
-          "id": "37af0181-5598-4aad-a040-d926bcb65757",
+          "address": "185.86.145.174",
+          "port": 10452,
+          "id": "220ae4c4-f89b-4441-918b-15d095dd41cc",
           "encryption": "none",
-          "level": 8
+          "level": 8,
+          "flow": "xtls-rprx-vision"
         },
         "streamSettings": {
-          "network": "grpc",
+          "network": "raw",
           "security": "reality",
           "realitySettings": {
             "serverName": "passport.yandex.ru",
-            "fingerprint": "safari",
-            "publicKey": "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA"
-          },
-          "grpcSettings": {
-            "serviceName": "grpc"
+            "fingerprint": "firefox",
+            "publicKey": "L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo",
+            "shortId": "c8a79c7b64adca2a",
+            "spiderX": "/"
           }
         },
         "tag": "bal-1-4"
@@ -141,9 +142,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.42.208",
-          "port": 443,
-          "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+          "address": "185.86.145.216",
+          "port": 32944,
+          "id": "220ae4c4-f89b-4441-918b-15d095dd41cc",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -152,10 +153,10 @@
           "network": "raw",
           "security": "reality",
           "realitySettings": {
-            "serverName": "shop.okhta-mebel.site",
+            "serverName": "passport.yandex.ru",
             "fingerprint": "firefox",
-            "publicKey": "CfHPtlNvqfK3QPvYfV7u-NjZcQh-buXZTA9gaGwvKmI",
-            "shortId": "b781a152ee"
+            "publicKey": "Te3ZcFFTilb6_j4hdotSvXaRYBzGuNiRxuBh8n1NezU",
+            "shortId": "91d2d3db690f4b59"
           }
         },
         "tag": "bal-1-5"
@@ -163,9 +164,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.42.208",
-          "port": 443,
-          "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+          "address": "185.86.147.184",
+          "port": 9449,
+          "id": "220ae4c4-f89b-4441-918b-15d095dd41cc",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -174,10 +175,11 @@
           "network": "raw",
           "security": "reality",
           "realitySettings": {
-            "serverName": "shop.okhta-mebel.site",
-            "fingerprint": "edge",
-            "publicKey": "CfHPtlNvqfK3QPvYfV7u-NjZcQh-buXZTA9gaGwvKmI",
-            "shortId": "b781a152ee"
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA",
+            "shortId": "62002c0a685ac208",
+            "spiderX": "/"
           }
         },
         "tag": "bal-1-6"
@@ -185,9 +187,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.42.208",
-          "port": 443,
-          "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+          "address": "87.242.127.51",
+          "port": 7452,
+          "id": "220ae4c4-f89b-4441-918b-15d095dd41cc",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -196,10 +198,11 @@
           "network": "raw",
           "security": "reality",
           "realitySettings": {
-            "serverName": "shop.okhta-mebel.site",
-            "fingerprint": "ios",
-            "publicKey": "CfHPtlNvqfK3QPvYfV7u-NjZcQh-buXZTA9gaGwvKmI",
-            "shortId": "b781a152ee"
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
+            "shortId": "190c27ae5f2e4d2c",
+            "spiderX": "/"
           }
         },
         "tag": "bal-1-7"
@@ -207,19 +210,22 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "87.228.33.153",
-          "port": 6443,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
+          "address": "185.86.147.143",
+          "port": 7443,
+          "id": "220ae4c4-f89b-4441-918b-15d095dd41cc",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
         },
         "streamSettings": {
           "network": "raw",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "for.cloudgamings.org",
-            "fingerprint": "firefox"
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "passport.yandex.ru",
+            "fingerprint": "firefox",
+            "publicKey": "0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To",
+            "shortId": "190c27ae5f2e4d2c",
+            "spiderX": "/"
           }
         },
         "tag": "bal-1-8"
@@ -227,76 +233,24 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "87.228.33.153",
-          "port": 6443,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
+          "address": "194.55.239.47",
+          "port": 443,
+          "id": "75d1a1e9-cc7c-0014-92c7-1357c6a37875",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
         },
         "streamSettings": {
           "network": "raw",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "for.cloudgamings.org",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "empanel.injlab.org",
+            "fingerprint": "edge",
+            "publicKey": "1WWCm1gHVrghowSVLWlBq_ofcJThgEYUclB1oR22bBg",
+            "shortId": "a870ef67d6260fa7"
           }
         },
         "tag": "bal-1-9"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "87.228.33.153",
-          "port": 6443,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "for.cloudgamings.org",
-            "fingerprint": "safari",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          }
-        },
-        "tag": "bal-1-10"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.86.145.190",
-          "port": 10458,
-          "id": "1962ec0b-becc-418b-ada4-b459738e909a",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "fingerprint": "randomized",
-            "publicKey": "NcusujNOLaj9kiNIAMzg3BKdb3WYXMdkCgfeNHyie1E",
-            "shortId": "67ca97db5f330f5f"
-          },
-          "xhttpSettings": {
-            "host": "sub-edge-18-1g.whitenw.net",
-            "path": "/aFlS06iNEzhdEdIa",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-1-11"
       },
       {
         "protocol": "vless",
@@ -320,7 +274,7 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-1-12"
+        "tag": "bal-1-10"
       },
       {
         "protocol": "vless",
@@ -345,7 +299,7 @@
             "path": "/api/v2/checkout/poll"
           }
         },
-        "tag": "bal-1-13"
+        "tag": "bal-1-11"
       },
       {
         "protocol": "vless",
@@ -367,7 +321,7 @@
             "shortId": "f3c0f343a191"
           }
         },
-        "tag": "bal-1-14"
+        "tag": "bal-1-12"
       },
       {
         "protocol": "vless",
@@ -392,7 +346,121 @@
             "path": "/api/v2/checkout/poll"
           }
         },
+        "tag": "bal-1-13"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "87.228.33.110",
+          "port": 666,
+          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "fingerprint": "firefox",
+            "publicKey": "E_j9qer8VG87fYf6T-mySq01RcBdmhtMI_2h0powPnM",
+            "shortId": "2a2935ca1daefcde"
+          },
+          "grpcSettings": {
+            "serviceName": "grpc"
+          }
+        },
+        "tag": "bal-1-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "87.228.33.110",
+          "port": 666,
+          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "fingerprint": "ios",
+            "publicKey": "E_j9qer8VG87fYf6T-mySq01RcBdmhtMI_2h0powPnM",
+            "shortId": "2a2935ca1daefcde"
+          },
+          "grpcSettings": {
+            "serviceName": "grpc"
+          }
+        },
         "tag": "bal-1-15"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "81.94.148.67",
+          "port": 2087,
+          "id": "155fd9d4-e1f9-44b3-99b6-6d2c389ade88",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "bm7.hat.onl",
+            "fingerprint": "qq",
+            "publicKey": "WL9GPq_lRWgT2lNCnDGSSU9GB9LghVKZ7nUrHAS5Pw8",
+            "shortId": "6f009fe1fab1d42e"
+          }
+        },
+        "tag": "bal-1-16"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "81.94.148.67",
+          "port": 2083,
+          "id": "155fd9d4-e1f9-44b3-99b6-6d2c389ade88",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "bm6.hat.onl",
+            "fingerprint": "qq",
+            "publicKey": "Zy-GGHQ4J0M5RtpGPF7MUabmQo8nNr9iohVfyrmSGEY",
+            "shortId": "7e704e370213f498"
+          }
+        },
+        "tag": "bal-1-17"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.225.33.214",
+          "port": 8443,
+          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "fingerprint": "firefox",
+            "publicKey": "xEprpxcbj30lJZMfNWftPtiAmgrXTzRnnN3HFRtFfB4",
+            "shortId": "f3c0f343a191"
+          }
+        },
+        "tag": "bal-1-18"
       },
       {
         "protocol": "vless",
@@ -416,123 +484,7 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-1-16"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "87.228.33.110",
-          "port": 666,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "fingerprint": "firefox",
-            "publicKey": "E_j9qer8VG87fYf6T-mySq01RcBdmhtMI_2h0powPnM",
-            "shortId": "2a2935ca1daefcde"
-          },
-          "grpcSettings": {
-            "serviceName": "grpc"
-          }
-        },
-        "tag": "bal-1-17"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "87.228.33.110",
-          "port": 666,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "fingerprint": "ios",
-            "publicKey": "E_j9qer8VG87fYf6T-mySq01RcBdmhtMI_2h0powPnM",
-            "shortId": "2a2935ca1daefcde"
-          },
-          "grpcSettings": {
-            "serviceName": "grpc"
-          }
-        },
-        "tag": "bal-1-18"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "194.55.239.39",
-          "port": 443,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "cdn-network.cloudgamings.org",
-            "fingerprint": "firefox"
-          }
-        },
         "tag": "bal-1-19"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "194.55.239.39",
-          "port": 443,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "cdn-network.cloudgamings.org",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          }
-        },
-        "tag": "bal-1-20"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "194.55.239.39",
-          "port": 443,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
-          "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "cdn-network.cloudgamings.org",
-            "fingerprint": "qq",
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          }
-        },
-        "tag": "bal-1-21"
       },
       {
         "protocol": "vless",
@@ -554,7 +506,7 @@
             "serviceName": "v1.segment.UyktTezxTgNzL5fx.ts"
           }
         },
-        "tag": "bal-1-22"
+        "tag": "bal-1-20"
       },
       {
         "protocol": "vless",
@@ -576,24 +528,74 @@
             "serviceName": "v1.segment.UyktTezxTgNzL5fx.ts"
           }
         },
+        "tag": "bal-1-21"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.225.58.201",
+          "port": 8443,
+          "id": "5f1c2e83-d4aa-4f10-81e9-e0ccc018974c",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "xtw3x.artemida.digital",
+            "fingerprint": "firefox",
+            "publicKey": "JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw",
+            "shortId": "a1b2c3d4e5f6a7b8"
+          },
+          "grpcSettings": {
+            "serviceName": ""
+          }
+        },
+        "tag": "bal-1-22"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "95.129.236.117",
+          "port": 443,
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "cdn.dash.gearmonster.org",
+            "fingerprint": "firefox"
+          },
+          "wsSettings": {
+            "host": "cdn.dash.gearmonster.org",
+            "path": "/edge/node8/push"
+          }
+        },
         "tag": "bal-1-23"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "194.55.239.39",
+          "address": "95.129.236.117",
           "port": 443,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
           "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
+          "level": 8
         },
         "streamSettings": {
-          "network": "raw",
+          "network": "ws",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "cdn-network.cloudgamings.org",
-            "fingerprint": "chrome"
+            "serverName": "cdn.dash.gearmonster.org",
+            "fingerprint": "safari"
+          },
+          "wsSettings": {
+            "host": "cdn.dash.gearmonster.org",
+            "path": "/edge/node8/push"
           }
         },
         "tag": "bal-1-24"
@@ -601,22 +603,25 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "194.55.239.39",
+          "address": "95.129.236.117",
           "port": 443,
-          "id": "68a67906-5b37-4779-a6cc-58a1655f18b4",
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
           "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
+          "level": 8
         },
         "streamSettings": {
-          "network": "raw",
+          "network": "ws",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "cdn-network.cloudgamings.org",
+            "serverName": "cdn.dash.gearmonster.org",
+            "fingerprint": "edge",
             "alpn": [
-              "h2",
               "http/1.1"
             ]
+          },
+          "wsSettings": {
+            "host": "cdn.dash.gearmonster.org",
+            "path": "/edge/node8/push"
           }
         },
         "tag": "bal-1-25"
@@ -763,9 +768,61 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "194.55.239.47",
+          "address": "95.129.236.117",
           "port": 443,
-          "id": "75d1a1e9-cc7c-000a-92c7-1357c6a37875",
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "cdn.dash.gearmonster.org",
+            "fingerprint": "qq",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "cdn.dash.gearmonster.org",
+            "path": "/edge/node8/push"
+          }
+        },
+        "tag": "bal-2-1"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "95.129.236.117",
+          "port": 443,
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "cdn.dash.gearmonster.org",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "cdn.dash.gearmonster.org",
+            "path": "/edge/node8/push"
+          }
+        },
+        "tag": "bal-2-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "81.94.148.67",
+          "port": 2053,
+          "id": "155fd9d4-e1f9-44b3-99b6-6d2c389ade88",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -774,18 +831,84 @@
           "network": "raw",
           "security": "reality",
           "realitySettings": {
-            "serverName": "empanel.injlab.org",
-            "fingerprint": "edge",
-            "publicKey": "1WWCm1gHVrghowSVLWlBq_ofcJThgEYUclB1oR22bBg",
-            "shortId": "a870ef67d6260fa7"
+            "serverName": "bm1.hat.onl",
+            "fingerprint": "qq",
+            "publicKey": "GyYuIjccJJRQZM72MGdBQEwGwGR9e0UMNlJxw0sQR2M",
+            "shortId": "38560e0003d69843"
           }
         },
-        "tag": "bal-2-1"
+        "tag": "bal-2-3"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "81.94.148.67",
+          "port": 8443,
+          "id": "155fd9d4-e1f9-44b3-99b6-6d2c389ade88",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "bm9.hat.onl",
+            "fingerprint": "qq",
+            "publicKey": "Dx5aV0n9e1j_YDhVk8Z4O9HPrg1HLAuGKlmQpgERgDo",
+            "shortId": "8eeca41a32d1523d"
+          }
+        },
+        "tag": "bal-2-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "81.94.148.67",
+          "port": 2096,
+          "id": "155fd9d4-e1f9-44b3-99b6-6d2c389ade88",
+          "encryption": "none",
+          "level": 8,
+          "flow": "xtls-rprx-vision"
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "bm8.hat.onl",
+            "fingerprint": "qq",
+            "publicKey": "26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4",
+            "shortId": "2a096f7b298d0aba"
+          }
+        },
+        "tag": "bal-2-5"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "81.94.148.67",
+          "port": 39443,
+          "id": "7592ca5c-b352-4562-8856-a9c936a3331b",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "sfyehxfj3lu.hat.onl",
+            "fingerprint": "firefox"
+          },
+          "grpcSettings": {
+            "serviceName": "v1.segment.UyktTezxTgNzL5fx.ts"
+          }
+        },
+        "tag": "bal-2-6"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
           "port": 10018,
           "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -804,12 +927,12 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-2-2"
+        "tag": "bal-2-7"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
           "port": 10018,
           "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -828,12 +951,12 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-2-3"
+        "tag": "bal-2-8"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
           "port": 10018,
           "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -852,12 +975,12 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-2-4"
+        "tag": "bal-2-9"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
           "port": 443,
           "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -869,127 +992,6 @@
           "tlsSettings": {
             "serverName": "6b9iw.guardora.pro",
             "fingerprint": "chrome",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "path": "/ogVAL8moh5SB"
-          }
-        },
-        "tag": "bal-2-5"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "46.243.232.71",
-          "port": 443,
-          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "6b9iw.guardora.pro",
-            "fingerprint": "ios",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "path": "/ogVAL8moh5SB"
-          }
-        },
-        "tag": "bal-2-6"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "46.243.232.71",
-          "port": 10018,
-          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "6b9iw.guardora.pro",
-            "publicKey": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
-            "shortId": "c1a7e9b4711d5f60"
-          },
-          "grpcSettings": {
-            "serviceName": "grpc"
-          }
-        },
-        "tag": "bal-2-7"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "46.243.232.71",
-          "port": 10018,
-          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "6b9iw.guardora.pro",
-            "fingerprint": "firefox",
-            "publicKey": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
-            "shortId": "c1a7e9b4711d5f60"
-          },
-          "grpcSettings": {
-            "serviceName": "grpc"
-          }
-        },
-        "tag": "bal-2-8"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "46.243.232.71",
-          "port": 10018,
-          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "6b9iw.guardora.pro",
-            "fingerprint": "ios",
-            "publicKey": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
-            "shortId": "c1a7e9b4711d5f60"
-          },
-          "grpcSettings": {
-            "serviceName": "grpc"
-          }
-        },
-        "tag": "bal-2-9"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "46.243.232.71",
-          "port": 443,
-          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "6b9iw.guardora.pro",
-            "fingerprint": "firefox",
             "alpn": [
               "http/1.1"
             ]
@@ -1003,7 +1005,128 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
+          "port": 443,
+          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "6b9iw.guardora.pro",
+            "fingerprint": "ios",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "path": "/ogVAL8moh5SB"
+          }
+        },
+        "tag": "bal-2-11"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
+          "port": 10018,
+          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "6b9iw.guardora.pro",
+            "publicKey": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
+            "shortId": "c1a7e9b4711d5f60"
+          },
+          "grpcSettings": {
+            "serviceName": "grpc"
+          }
+        },
+        "tag": "bal-2-12"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
+          "port": 10018,
+          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "6b9iw.guardora.pro",
+            "fingerprint": "firefox",
+            "publicKey": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
+            "shortId": "c1a7e9b4711d5f60"
+          },
+          "grpcSettings": {
+            "serviceName": "grpc"
+          }
+        },
+        "tag": "bal-2-13"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
+          "port": 10018,
+          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "6b9iw.guardora.pro",
+            "fingerprint": "ios",
+            "publicKey": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
+            "shortId": "c1a7e9b4711d5f60"
+          },
+          "grpcSettings": {
+            "serviceName": "grpc"
+          }
+        },
+        "tag": "bal-2-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
+          "port": 443,
+          "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "6b9iw.guardora.pro",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "path": "/ogVAL8moh5SB"
+          }
+        },
+        "tag": "bal-2-15"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
           "port": 443,
           "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -1023,12 +1146,12 @@
             "path": "/ogVAL8moh5SB"
           }
         },
-        "tag": "bal-2-11"
+        "tag": "bal-2-16"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
           "port": 443,
           "id": "d9cc5c37-b53c-1131-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -1048,7 +1171,7 @@
             "path": "/ogVAL8moh5SB"
           }
         },
-        "tag": "bal-2-12"
+        "tag": "bal-2-17"
       },
       {
         "protocol": "vless",
@@ -1071,7 +1194,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-2-13"
+        "tag": "bal-2-18"
       },
       {
         "protocol": "vless",
@@ -1094,7 +1217,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-2-14"
+        "tag": "bal-2-19"
       },
       {
         "protocol": "vless",
@@ -1117,7 +1240,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-2-15"
+        "tag": "bal-2-20"
       },
       {
         "protocol": "vless",
@@ -1143,7 +1266,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-2-16"
+        "tag": "bal-2-21"
       },
       {
         "protocol": "vless",
@@ -1169,7 +1292,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-2-17"
+        "tag": "bal-2-22"
       },
       {
         "protocol": "vless",
@@ -1192,7 +1315,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-2-18"
+        "tag": "bal-2-23"
       },
       {
         "protocol": "vless",
@@ -1218,7 +1341,7 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-2-19"
+        "tag": "bal-2-24"
       },
       {
         "protocol": "vless",
@@ -1242,129 +1365,6 @@
           "wsSettings": {
             "host": "stechnostore.life",
             "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-2-20"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "android"
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-2-21"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.167",
-          "port": 443,
-          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "stechnostore.life",
-            "fingerprint": "safari",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "host": "stechnostore.life",
-            "path": "/player/collect/9c8514f9552d/"
-          }
-        },
-        "tag": "bal-2-22"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "46.243.232.71",
-          "port": 443,
-          "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "6b9iw.guardora.pro",
-            "fingerprint": "chrome",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "path": "/ogVAL8moh5SB"
-          }
-        },
-        "tag": "bal-2-23"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "46.243.232.71",
-          "port": 443,
-          "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "6b9iw.guardora.pro",
-            "fingerprint": "safari",
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "wsSettings": {
-            "path": "/ogVAL8moh5SB"
-          }
-        },
-        "tag": "bal-2-24"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "46.243.232.71",
-          "port": 10018,
-          "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "6b9iw.guardora.pro",
-            "fingerprint": "chrome",
-            "publicKey": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
-            "shortId": "c1a7e9b4711d5f60"
-          },
-          "grpcSettings": {
-            "serviceName": "grpc"
           }
         },
         "tag": "bal-2-25"
@@ -1511,7 +1511,130 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "stechnostore.life",
+            "fingerprint": "android"
+          },
+          "wsSettings": {
+            "host": "stechnostore.life",
+            "path": "/player/collect/9c8514f9552d/"
+          }
+        },
+        "tag": "bal-3-1"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.167",
+          "port": 443,
+          "id": "8a4fe9f3-4da3-4004-b721-cae64ff0d018",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "stechnostore.life",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "stechnostore.life",
+            "path": "/player/collect/9c8514f9552d/"
+          }
+        },
+        "tag": "bal-3-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
+          "port": 443,
+          "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "6b9iw.guardora.pro",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "path": "/ogVAL8moh5SB"
+          }
+        },
+        "tag": "bal-3-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
+          "port": 443,
+          "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "6b9iw.guardora.pro",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "path": "/ogVAL8moh5SB"
+          }
+        },
+        "tag": "bal-3-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
+          "port": 10018,
+          "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "6b9iw.guardora.pro",
+            "fingerprint": "chrome",
+            "publicKey": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
+            "shortId": "c1a7e9b4711d5f60"
+          },
+          "grpcSettings": {
+            "serviceName": "grpc"
+          }
+        },
+        "tag": "bal-3-5"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "37.18.14.25",
           "port": 10018,
           "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -1530,7 +1653,7 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-3-1"
+        "tag": "bal-3-6"
       },
       {
         "protocol": "vless",
@@ -1553,12 +1676,12 @@
             "path": "/player/collect/9c8514f9552d/"
           }
         },
-        "tag": "bal-3-2"
+        "tag": "bal-3-7"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
           "port": 10018,
           "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -1577,12 +1700,12 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-3-3"
+        "tag": "bal-3-8"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
           "port": 10018,
           "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -1601,12 +1724,12 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-3-4"
+        "tag": "bal-3-9"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
           "port": 10018,
           "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -1625,12 +1748,12 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-3-5"
+        "tag": "bal-3-10"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "46.243.232.71",
+          "address": "37.18.14.25",
           "port": 10018,
           "id": "d9cc5c37-b53c-14a1-b4e1-1b9f7fbea1b1",
           "encryption": "none",
@@ -1648,14 +1771,14 @@
             "serviceName": "grpc"
           }
         },
-        "tag": "bal-3-6"
+        "tag": "bal-3-11"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.42.208",
+          "address": "194.55.239.47",
           "port": 443,
-          "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+          "id": "75d1a1e9-cc7c-000a-92c7-1357c6a37875",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -1664,13 +1787,111 @@
           "network": "raw",
           "security": "reality",
           "realitySettings": {
-            "serverName": "catalog.okhta-mebel.site",
-            "fingerprint": "firefox",
-            "publicKey": "-Puv6s6Xfyk3hfomXqg0yx6wrmkzbROqq1NYQkjPdDs",
-            "shortId": "ba7078491e"
+            "serverName": "empanel.injlab.org",
+            "fingerprint": "edge",
+            "publicKey": "1WWCm1gHVrghowSVLWlBq_ofcJThgEYUclB1oR22bBg",
+            "shortId": "a870ef67d6260fa7"
           }
         },
-        "tag": "bal-3-7"
+        "tag": "bal-3-12"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "95.129.236.216",
+          "port": 443,
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "crm.hourtley.com",
+            "fingerprint": "chrome"
+          },
+          "wsSettings": {
+            "host": "crm.hourtley.com",
+            "path": "/stream/video/ffmpeg"
+          }
+        },
+        "tag": "bal-3-13"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "95.129.236.216",
+          "port": 443,
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "crm.hourtley.com",
+            "fingerprint": "firefox"
+          },
+          "wsSettings": {
+            "host": "crm.hourtley.com",
+            "path": "/stream/video/ffmpeg"
+          }
+        },
+        "tag": "bal-3-14"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "95.129.236.216",
+          "port": 443,
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "crm.hourtley.com",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "crm.hourtley.com",
+            "path": "/stream/video/ffmpeg"
+          }
+        },
+        "tag": "bal-3-15"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "95.129.236.216",
+          "port": 443,
+          "id": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "crm.hourtley.com",
+            "fingerprint": "qq",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "crm.hourtley.com",
+            "path": "/stream/video/ffmpeg"
+          }
+        },
+        "tag": "bal-3-16"
       },
       {
         "protocol": "vless",
@@ -1694,7 +1915,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-3-8"
+        "tag": "bal-3-17"
       },
       {
         "protocol": "vless",
@@ -1721,7 +1942,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-3-9"
+        "tag": "bal-3-18"
       },
       {
         "protocol": "vless",
@@ -1748,7 +1969,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-3-10"
+        "tag": "bal-3-19"
       },
       {
         "protocol": "vless",
@@ -1772,7 +1993,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-3-11"
+        "tag": "bal-3-20"
       },
       {
         "protocol": "vless",
@@ -1795,7 +2016,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-3-12"
+        "tag": "bal-3-21"
       },
       {
         "protocol": "vless",
@@ -1818,7 +2039,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-3-13"
+        "tag": "bal-3-22"
       },
       {
         "protocol": "vless",
@@ -1841,7 +2062,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-3-14"
+        "tag": "bal-3-23"
       },
       {
         "protocol": "vless",
@@ -1868,7 +2089,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-3-15"
+        "tag": "bal-3-24"
       },
       {
         "protocol": "vless",
@@ -1891,230 +2112,6 @@
           },
           "xhttpSettings": {
             "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-3-16"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-3-17"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "edge"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-3-18"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "ios",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-3-19"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "safari",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-3-20"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-3-21"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq"
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-3-22"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "edge"
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-3-23"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "firefox"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-3-24"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "chrome",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
             "path": "/api/v2/events",
             "mode": "packet-up"
           }
@@ -2274,6 +2271,230 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "static.bakarova-top.ru",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-4-1"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "edge"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-4-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "ios",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-4-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "safari",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-4-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-4-5"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "qq"
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-4-6"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "edge"
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-4-7"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-4-8"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "chrome",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-4-9"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
             "fingerprint": "edge",
             "alpn": [
               "h2"
@@ -2284,7 +2505,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-1"
+        "tag": "bal-4-10"
       },
       {
         "protocol": "vless",
@@ -2310,7 +2531,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-2"
+        "tag": "bal-4-11"
       },
       {
         "protocol": "vless",
@@ -2333,7 +2554,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-3"
+        "tag": "bal-4-12"
       },
       {
         "protocol": "vless",
@@ -2356,7 +2577,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-4"
+        "tag": "bal-4-13"
       },
       {
         "protocol": "vless",
@@ -2379,7 +2600,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-5"
+        "tag": "bal-4-14"
       },
       {
         "protocol": "vless",
@@ -2404,7 +2625,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-6"
+        "tag": "bal-4-15"
       },
       {
         "protocol": "vless",
@@ -2427,7 +2648,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-7"
+        "tag": "bal-4-16"
       },
       {
         "protocol": "vless",
@@ -2453,7 +2674,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-8"
+        "tag": "bal-4-17"
       },
       {
         "protocol": "vless",
@@ -2476,7 +2697,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-9"
+        "tag": "bal-4-18"
       },
       {
         "protocol": "vless",
@@ -2499,7 +2720,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-10"
+        "tag": "bal-4-19"
       },
       {
         "protocol": "vless",
@@ -2522,7 +2743,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-4-11"
+        "tag": "bal-4-20"
       },
       {
         "protocol": "vless",
@@ -2546,7 +2767,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-12"
+        "tag": "bal-4-21"
       },
       {
         "protocol": "vless",
@@ -2573,7 +2794,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-13"
+        "tag": "bal-4-22"
       },
       {
         "protocol": "vless",
@@ -2600,7 +2821,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-14"
+        "tag": "bal-4-23"
       },
       {
         "protocol": "vless",
@@ -2627,7 +2848,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-4-15"
+        "tag": "bal-4-24"
       },
       {
         "protocol": "vless",
@@ -2652,229 +2873,6 @@
             "host": "api.bakarova-top.ru",
             "path": "/api/v2/events",
             "mode": "packet-up"
-          }
-        },
-        "tag": "bal-4-16"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "safari"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-4-17"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "api.bakarova-top.ru",
-            "fingerprint": "chrome"
-          },
-          "xhttpSettings": {
-            "host": "api.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-4-18"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "ios"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-4-19"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq"
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-4-20"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "api.bakarova-top.ru",
-            "fingerprint": "safari"
-          },
-          "xhttpSettings": {
-            "host": "api.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-4-21"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "ios",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "path": "/api/v2/events",
-            "mode": "packet-up"
-          }
-        },
-        "tag": "bal-4-22"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-4-23"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "ios",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "auto"
-          }
-        },
-        "tag": "bal-4-24"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "185.178.208.140",
-          "port": 443,
-          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "static.bakarova-top.ru",
-            "fingerprint": "qq",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "xhttpSettings": {
-            "host": "static.bakarova-top.ru",
-            "path": "/api/v2/events",
-            "mode": "auto"
           }
         },
         "tag": "bal-4-25"
@@ -2972,7 +2970,7 @@
     "stats": {}
   },
   {
-    "remarks": "🚧 | Белые списки 5 | 13",
+    "remarks": "🚧 | Белые списки 5 | 22",
     "log": {
       "loglevel": "warning"
     },
@@ -3031,8 +3029,8 @@
           "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "api.bakarova-top.ru",
-            "fingerprint": "chrome"
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "safari"
           },
           "xhttpSettings": {
             "path": "/api/v2/events",
@@ -3055,6 +3053,229 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "api.bakarova-top.ru",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "host": "api.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-5-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "ios"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-5-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "qq"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-5-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "api.bakarova-top.ru",
+            "fingerprint": "safari"
+          },
+          "xhttpSettings": {
+            "host": "api.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-5-5"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "ios",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "packet-up"
+          }
+        },
+        "tag": "bal-5-6"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-5-7"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "ios",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-5-8"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "static.bakarova-top.ru",
+            "fingerprint": "qq",
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "static.bakarova-top.ru",
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-5-9"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "api.bakarova-top.ru",
+            "fingerprint": "chrome"
+          },
+          "xhttpSettings": {
+            "path": "/api/v2/events",
+            "mode": "auto"
+          }
+        },
+        "tag": "bal-5-10"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "185.178.208.140",
+          "port": 443,
+          "id": "ea277838-a188-44f1-a2e8-94aa110c4f27",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "api.bakarova-top.ru",
             "fingerprint": "firefox"
           },
           "xhttpSettings": {
@@ -3062,7 +3283,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-2"
+        "tag": "bal-5-11"
       },
       {
         "protocol": "vless",
@@ -3089,7 +3310,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-3"
+        "tag": "bal-5-12"
       },
       {
         "protocol": "vless",
@@ -3112,7 +3333,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-4"
+        "tag": "bal-5-13"
       },
       {
         "protocol": "vless",
@@ -3139,7 +3360,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-5"
+        "tag": "bal-5-14"
       },
       {
         "protocol": "vless",
@@ -3165,7 +3386,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-6"
+        "tag": "bal-5-15"
       },
       {
         "protocol": "vless",
@@ -3191,7 +3412,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-7"
+        "tag": "bal-5-16"
       },
       {
         "protocol": "vless",
@@ -3217,7 +3438,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-8"
+        "tag": "bal-5-17"
       },
       {
         "protocol": "vless",
@@ -3243,7 +3464,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-9"
+        "tag": "bal-5-18"
       },
       {
         "protocol": "vless",
@@ -3267,7 +3488,7 @@
             "mode": "packet-up"
           }
         },
-        "tag": "bal-5-10"
+        "tag": "bal-5-19"
       },
       {
         "protocol": "vless",
@@ -3290,7 +3511,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-11"
+        "tag": "bal-5-20"
       },
       {
         "protocol": "vless",
@@ -3312,7 +3533,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-12"
+        "tag": "bal-5-21"
       },
       {
         "protocol": "vless",
@@ -3339,7 +3560,7 @@
             "mode": "auto"
           }
         },
-        "tag": "bal-5-13"
+        "tag": "bal-5-22"
       },
       {
         "protocol": "freedom",
