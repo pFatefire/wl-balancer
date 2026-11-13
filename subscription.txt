@@ -577,24 +577,51 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.73.41",
+          "address": "188.225.37.43",
           "port": 443,
           "id": "4cabcd59-a405-4c00-96f5-03507e1e28fa",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "grpc",
+          "network": "ws",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "cadrin.wtf",
-            "fingerprint": "ios"
+            "serverName": "torvani.cyou",
+            "fingerprint": "firefox"
           },
-          "grpcSettings": {
-            "serviceName": "cache.sync.v1"
+          "wsSettings": {
+            "host": "torvani.cyou",
+            "path": "/api/boards/live"
           }
         },
         "tag": "bal-1-17"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.225.37.175",
+          "port": 443,
+          "id": "4b50270b-5caf-4c34-b3da-17b4525604a6",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "cryptoventura.online",
+            "fingerprint": "edge",
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "wsSettings": {
+            "host": "cryptoventura.online",
+            "path": "/api/de3/live"
+          }
+        },
+        "tag": "bal-1-18"
       },
       {
         "protocol": "vless",
@@ -620,79 +647,74 @@
             "path": "/api/de3/live"
           }
         },
-        "tag": "bal-1-18"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "188.225.37.43",
-          "port": 443,
-          "id": "4cabcd59-a405-4c00-96f5-03507e1e28fa",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "torvani.cyou",
-            "fingerprint": "firefox"
-          },
-          "wsSettings": {
-            "host": "torvani.cyou",
-            "path": "/api/boards/live"
-          }
-        },
         "tag": "bal-1-19"
       },
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.37.175",
+          "address": "188.72.111.18",
           "port": 443,
-          "id": "4b50270b-5caf-4c34-b3da-17b4525604a6",
+          "id": "7d43670b-6b08-45b9-8a24-8f3971abc132",
           "encryption": "none",
           "level": 8
         },
         "streamSettings": {
-          "network": "ws",
+          "network": "xhttp",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "cryptoventura.online",
-            "fingerprint": "chrome",
+            "serverName": "ya.biznes.lol",
+            "fingerprint": "firefox",
             "alpn": [
+              "h2",
               "http/1.1"
             ]
           },
-          "wsSettings": {
-            "host": "cryptoventura.online",
-            "path": "/api/de3/live"
+          "xhttpSettings": {
+            "host": "ya.biznes.lol",
+            "path": "/09faea83d65c",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "0",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "7000-8000",
+              "noGRPCHeader": true,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "40000",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "0",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-1-20"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "188.225.37.43",
-          "port": 443,
-          "id": "4cabcd59-a405-4c00-96f5-03507e1e28fa",
-          "encryption": "none",
-          "level": 8
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "torvani.cyou",
-            "fingerprint": "firefox"
-          },
-          "wsSettings": {
-            "host": "torvani.cyou",
-            "path": "%2Fapi%2Fboards%2Flive"
-          }
-        },
-        "tag": "bal-1-21"
       },
       {
         "protocol": "vless",
@@ -712,6 +734,69 @@
           },
           "grpcSettings": {
             "serviceName": "glush.de2.v1"
+          }
+        },
+        "tag": "bal-1-21"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "188.72.111.18",
+          "port": 443,
+          "id": "7d43670b-6b08-45b9-8a24-8f3971abc132",
+          "encryption": "none",
+          "level": 8
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "ya.biznes.lol",
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "ya.biznes.lol",
+            "path": "/09faea83d65c",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "",
+              "mode": "",
+              "headers": null,
+              "xPaddingBytes": "0",
+              "xPaddingObfsMode": false,
+              "xPaddingKey": "",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "",
+              "xPaddingMethod": "",
+              "uplinkHTTPMethod": "GET",
+              "sessionIDPlacement": "",
+              "sessionIDKey": "",
+              "sessionIDTable": "",
+              "sessionIDLength": "0",
+              "seqPlacement": "",
+              "seqKey": "",
+              "uplinkDataPlacement": "header",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "7000-8000",
+              "noGRPCHeader": true,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "40000",
+              "scMinPostsIntervalMs": "0",
+              "scMaxBufferedPosts": 0,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "0",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "0",
+                "hMaxReusableSecs": "0",
+                "hKeepAlivePeriod": 0
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-1-22"
@@ -741,9 +826,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.37.175",
+          "address": "188.225.37.43",
           "port": 443,
-          "id": "820fa845-a1eb-4a83-b613-e6714cea8a1a",
+          "id": "4cabcd59-a405-4c00-96f5-03507e1e28fa",
           "encryption": "none",
           "level": 8
         },
@@ -751,15 +836,12 @@
           "network": "ws",
           "security": "tls",
           "tlsSettings": {
-            "serverName": "cryptoventura.online",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
+            "serverName": "torvani.cyou",
+            "fingerprint": "chrome"
           },
           "wsSettings": {
-            "host": "cryptoventura.online",
-            "path": "/api/de3/live"
+            "host": "torvani.cyou",
+            "path": "/api/boards/live"
           }
         },
         "tag": "bal-1-24"
@@ -767,20 +849,65 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "185.86.145.223",
-          "port": 8445,
-          "id": "84a56b88-2f89-4a57-b925-74abd5b7fd87",
+          "address": "91.240.169.224",
+          "port": 443,
+          "id": "835854ab-6aa9-4f7e-8ac9-22ce704b7022",
           "encryption": "none",
-          "level": 8,
-          "flow": "xtls-rprx-vision"
+          "level": 8
         },
         "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "passport.yandex.ru",
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "unokesufayim.begetcdn.cloud",
             "fingerprint": "firefox",
-            "publicKey": "I_0JD13_bJuD6bNhTfb1PFPJUQqEVHl-YFluNwHAPD4"
+            "alpn": [
+              "h2"
+            ]
+          },
+          "xhttpSettings": {
+            "host": "unokesufayim.begetcdn.cloud",
+            "path": "/hls/local/media.ts",
+            "mode": "packet-up",
+            "extra": {
+              "host": "",
+              "path": "/hls/local/media.ts",
+              "mode": "packet-up",
+              "headers": null,
+              "xPaddingBytes": "1-4",
+              "xPaddingObfsMode": true,
+              "xPaddingKey": "pid",
+              "xPaddingHeader": "",
+              "xPaddingPlacement": "query",
+              "xPaddingMethod": "tokenish",
+              "uplinkHTTPMethod": "POST",
+              "sessionIDPlacement": "query",
+              "sessionIDKey": "auth",
+              "sessionIDTable": "Base62",
+              "sessionIDLength": "4-8",
+              "seqPlacement": "query",
+              "seqKey": "chunk_id",
+              "uplinkDataPlacement": "",
+              "uplinkDataKey": "",
+              "uplinkChunkSize": "0",
+              "noGRPCHeader": false,
+              "noSSEHeader": false,
+              "scMaxEachPostBytes": "131072-262144",
+              "scMinPostsIntervalMs": "10-30",
+              "scMaxBufferedPosts": 50,
+              "scStreamUpServerSecs": "0",
+              "serverMaxHeaderBytes": 0,
+              "xmux": {
+                "maxConcurrency": "16-32",
+                "maxConnections": "0",
+                "cMaxReuseTimes": "0",
+                "hMaxRequestTimes": "800-1200",
+                "hMaxReusableSecs": "300-600",
+                "hKeepAlivePeriod": 45
+              },
+              "downloadSettings": null,
+              "extra": null
+            }
           }
         },
         "tag": "bal-1-25"
@@ -940,8 +1067,7 @@
           "realitySettings": {
             "serverName": "passport.yandex.ru",
             "fingerprint": "firefox",
-            "publicKey": "I_0JD13_bJuD6bNhTfb1PFPJUQqEVHl-YFluNwHAPD4",
-            "spiderX": "/"
+            "publicKey": "I_0JD13_bJuD6bNhTfb1PFPJUQqEVHl-YFluNwHAPD4"
           }
         },
         "tag": "bal-2-1"
@@ -1025,7 +1151,10 @@
           "security": "tls",
           "tlsSettings": {
             "serverName": "filnex.baby",
-            "fingerprint": "firefox"
+            "fingerprint": "qq",
+            "alpn": [
+              "h2"
+            ]
           },
           "grpcSettings": {
             "serviceName": "lalibobi.tw.de1.Connect"
@@ -1036,24 +1165,21 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "188.225.46.162",
+          "address": "145.223.68.58",
           "port": 443,
-          "id": "7d718630-7a1a-4af8-9332-aa0610634e8a",
+          "id": "edb50d20-2d3e-4c1e-8a75-a17168a89aa5",
           "encryption": "none",
-          "level": 8
+          "level": 8,
+          "flow": "xtls-rprx-vision"
         },
         "streamSettings": {
-          "network": "grpc",
-          "security": "tls",
-          "tlsSettings": {
-            "serverName": "filnex.baby",
-            "fingerprint": "firefox",
-            "alpn": [
-              "h2"
-            ]
-          },
-          "grpcSettings": {
-            "serviceName": "lalibobi.tw.de1.Connect"
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "www.cloudflare.com",
+            "fingerprint": "chrome",
+            "publicKey": "qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg",
+            "shortId": "a44ff7d2e80213c2"
           }
         },
         "tag": "bal-2-6"
@@ -1073,7 +1199,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "www.cloudflare.com",
-            "fingerprint": "chrome",
+            "fingerprint": "firefox",
             "publicKey": "qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg",
             "shortId": "a44ff7d2e80213c2"
           }
@@ -1095,7 +1221,6 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "www.cloudflare.com",
-            "fingerprint": "firefox",
             "publicKey": "qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg",
             "shortId": "a44ff7d2e80213c2"
           }
@@ -1105,9 +1230,9 @@
       {
         "protocol": "vless",
         "settings": {
-          "address": "145.223.68.58",
+          "address": "83.147.18.3",
           "port": 443,
-          "id": "edb50d20-2d3e-4c1e-8a75-a17168a89aa5",
+          "id": "9f61cdf4-810d-4052-bbc7-2da0c8e20104",
           "encryption": "none",
           "level": 8,
           "flow": "xtls-rprx-vision"
@@ -1117,8 +1242,9 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "www.cloudflare.com",
-            "publicKey": "qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg",
-            "shortId": "a44ff7d2e80213c2"
+            "fingerprint": "chrome",
+            "publicKey": "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA",
+            "shortId": "fd8cf7e1173f0edb"
           }
         },
         "tag": "bal-2-9"
@@ -1138,7 +1264,6 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "www.cloudflare.com",
-            "fingerprint": "chrome",
             "publicKey": "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA",
             "shortId": "fd8cf7e1173f0edb"
           }
